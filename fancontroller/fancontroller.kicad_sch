@@ -544,8 +544,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 34.29 0)
+			(property "Reference" "U2"
+				(at 2.1941 38.1 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -554,7 +554,7 @@
 				)
 			)
 			(property "Value" "ESP32-WROOM-32"
-				(at 1.27 34.29 0)
+				(at 2.1941 35.56 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -730,7 +730,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -35.56 90)
+					(at -12.7 -21.59 0)
 					(length 2.54) hide
 					(name "GND"
 						(effects
@@ -1180,7 +1180,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -35.56 90)
+					(at -12.7 -24.13 0)
 					(length 2.54) hide
 					(name "GND"
 						(effects
@@ -1198,7 +1198,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -35.56 90)
+					(at -12.7 -19.05 0)
 					(length 2.54) hide
 					(name "GND"
 						(effects
@@ -1759,6 +1759,140 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Thermistor"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TH"
+				(at 2.54 1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Thermistor"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Temperature dependent resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res thermistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Thermistor_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 3.175) (xy -1.905 1.905) (xy 1.905 -1.905) (xy 1.905 -3.175) (xy 1.905 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Thermistor_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -3089,10 +3223,22 @@
 		(uuid "46830b3a-1b59-4d52-885f-b5b24c3db555")
 	)
 	(junction
+		(at 229.87 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5951cad1-dac6-4b00-a883-7f316545dacd")
+	)
+	(junction
 		(at 245.11 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bec0713-937d-4d47-afcc-53e07ccef04d")
+	)
+	(junction
+		(at 104.14 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6697c752-d941-4391-abfc-73f6ed308b16")
 	)
 	(junction
 		(at 97.79 52.07)
@@ -3107,10 +3253,10 @@
 		(uuid "6d827c66-760f-467b-a966-95edbd0c2408")
 	)
 	(junction
-		(at 104.14 52.07)
+		(at 229.87 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7bc9490a-3ae1-424f-b356-094af73c404c")
+		(uuid "7a334155-5b31-489a-ae95-69d18edd3eff")
 	)
 	(junction
 		(at 76.2 52.07)
@@ -3119,10 +3265,22 @@
 		(uuid "8c424792-55b1-4a7c-a6ca-2552a92ee5cb")
 	)
 	(junction
+		(at 207.01 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fca3b73-ee11-4687-8c80-de74199d1017")
+	)
+	(junction
 		(at 116.84 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a151e681-a5cf-44ef-ad56-7a9bb1797e04")
+	)
+	(junction
+		(at 207.01 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a539e9cf-65c7-474e-b356-07216a7870a3")
 	)
 	(junction
 		(at 97.79 59.69)
@@ -3137,6 +3295,18 @@
 		(uuid "b4748d55-bc6d-4c27-a986-dd21eeb29c13")
 	)
 	(junction
+		(at 207.01 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6f53c57-1ad8-4ea3-8d06-a372dc47c026")
+	)
+	(junction
+		(at 229.87 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee5dd4e0-dd2b-4280-a711-11012828541e")
+	)
+	(junction
 		(at 133.35 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3149,6 +3319,10 @@
 	(no_connect
 		(at 125.73 130.81)
 		(uuid "2487cca4-5f0b-4a74-bb41-7e7c7e4752c5")
+	)
+	(no_connect
+		(at 128.27 137.16)
+		(uuid "3853ed98-ccca-46fc-a76c-c01332d4ed2d")
 	)
 	(no_connect
 		(at 125.73 120.65)
@@ -3202,6 +3376,14 @@
 		(at 156.21 100.33)
 		(uuid "fb596dd6-7734-401f-84c5-2d1e13927fe0")
 	)
+	(no_connect
+		(at 128.27 142.24)
+		(uuid "fbbcc0d3-678b-4b24-9c02-eeb8f5adda9d")
+	)
+	(no_connect
+		(at 128.27 139.7)
+		(uuid "ff764188-719c-435d-8869-cc182e259f2b")
+	)
 	(wire
 		(pts
 			(xy 233.68 105.41) (xy 233.68 110.49)
@@ -3221,6 +3403,16 @@
 			(type default)
 		)
 		(uuid "3303e921-8650-4950-a334-18a1c1e89c55")
+	)
+	(wire
+		(pts
+			(xy 229.87 31.75) (xy 229.87 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37bbe822-6f94-4436-86f7-79b0901ac5f0")
 	)
 	(wire
 		(pts
@@ -3244,6 +3436,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 31.75) (xy 222.25 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0dd3c3-4624-47b7-b6db-6f673b1663bf")
+	)
+	(wire
+		(pts
 			(xy 76.2 52.07) (xy 78.74 52.07)
 		)
 		(stroke
@@ -3251,6 +3453,16 @@
 			(type default)
 		)
 		(uuid "618e91d3-4186-497d-8a2f-d38b35d6d04d")
+	)
+	(wire
+		(pts
+			(xy 229.87 40.64) (xy 229.87 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ef6434-1c65-4e05-979b-b79b01daf396")
 	)
 	(wire
 		(pts
@@ -3324,6 +3536,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 49.53) (xy 207.01 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "929a7eb3-1564-4e8a-adce-fd0d4414d726")
+	)
+	(wire
+		(pts
 			(xy 233.68 110.49) (xy 233.68 129.54)
 		)
 		(stroke
@@ -3331,16 +3553,6 @@
 			(type default)
 		)
 		(uuid "93e88b68-36cc-49a6-a92e-cc9a3ea339b6")
-	)
-	(wire
-		(pts
-			(xy 182.88 100.33) (xy 182.88 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97038f54-6478-4ef2-a388-c43ac35b193b")
 	)
 	(wire
 		(pts
@@ -3374,6 +3586,26 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 40.64) (xy 222.25 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae014228-85b2-4d5c-b4f5-73792a0f63fb")
+	)
+	(wire
+		(pts
+			(xy 229.87 49.53) (xy 229.87 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83943cf-4334-44d0-81cc-f330abb9df5d")
+	)
+	(wire
+		(pts
 			(xy 233.68 129.54) (xy 233.68 146.05)
 		)
 		(stroke
@@ -3394,6 +3626,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 40.64) (xy 207.01 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d73f09cd-b485-49ea-bc11-8e0346dbf6e7")
+	)
+	(wire
+		(pts
 			(xy 156.21 87.63) (xy 187.96 87.63)
 		)
 		(stroke
@@ -3401,6 +3643,16 @@
 			(type default)
 		)
 		(uuid "d75dc7a0-2ce6-46a1-8532-0276c14fb136")
+	)
+	(wire
+		(pts
+			(xy 217.17 49.53) (xy 222.25 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df653766-0516-4baa-b2b6-ddf57f660c24")
 	)
 	(wire
 		(pts
@@ -3424,6 +3676,26 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 31.75) (xy 207.01 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5da51d-a235-4f5e-a26a-af133c7cf541")
+	)
+	(wire
+		(pts
+			(xy 217.17 58.42) (xy 222.25 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f809e8aa-615d-40e3-950a-4d0ad6efbc05")
+	)
+	(wire
+		(pts
 			(xy 257.81 105.41) (xy 257.81 110.49)
 		)
 		(stroke
@@ -3441,19 +3713,6 @@
 			(type default)
 		)
 		(uuid "fc5eaa50-f3c2-4c63-a1f9-43d6c7e373db")
-	)
-	(rectangle
-		(start 173.99 96.52)
-		(end 195.58 115.57)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 10 21 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 7f1717e2-5dbf-40f3-995d-d340080f1cec)
 	)
 	(global_label "Tacho5"
 		(shape input)
@@ -3501,7 +3760,7 @@
 	)
 	(global_label "TMP2"
 		(shape input)
-		(at 182.88 105.41 0)
+		(at 219.71 49.53 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3511,7 +3770,7 @@
 		)
 		(uuid "1af71785-a0e9-418e-ba2f-f67578887636")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.7637 105.41 0)
+			(at 219.71 41.6463 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3523,7 +3782,7 @@
 	)
 	(global_label "Tacho1"
 		(shape input)
-		(at 156.21 135.89 0)
+		(at 156.21 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3533,7 +3792,7 @@
 		)
 		(uuid "24f1c720-527e-44a7-af75-412f06ac5b87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.9079 135.89 0)
+			(at 165.9079 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3589,7 +3848,7 @@
 	)
 	(global_label "TMP3"
 		(shape input)
-		(at 156.21 151.13 0)
+		(at 156.21 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3599,7 +3858,7 @@
 		)
 		(uuid "33847c50-0541-4b62-b824-85c679e4e324")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.0937 151.13 0)
+			(at 164.0937 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,7 +3958,7 @@
 	)
 	(global_label "TMP1"
 		(shape input)
-		(at 182.88 102.87 0)
+		(at 219.71 40.64 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3709,7 +3968,7 @@
 		)
 		(uuid "59e7e539-7c61-41bd-b031-01cec36ab34e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.7637 102.87 0)
+			(at 219.71 32.7563 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +3980,7 @@
 	)
 	(global_label "TX"
 		(shape input)
-		(at 158.75 38.1 270)
+		(at 161.29 38.1 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3731,7 +3990,7 @@
 		)
 		(uuid "59ec492c-32e4-4bf5-89b6-481a2d4b0af5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.6706 42.6902 90)
+			(at 161.2106 42.6902 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3765,7 +4024,7 @@
 	)
 	(global_label "TMP2"
 		(shape input)
-		(at 156.21 148.59 0)
+		(at 156.21 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3775,7 +4034,7 @@
 		)
 		(uuid "6ab09d24-5dad-409c-8536-6bccb487c940")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.0937 148.59 0)
+			(at 164.0937 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3809,7 +4068,7 @@
 	)
 	(global_label "TMP3"
 		(shape input)
-		(at 182.88 107.95 0)
+		(at 219.71 58.42 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3819,7 +4078,7 @@
 		)
 		(uuid "8a649969-47c2-4643-956e-af699b06a8f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.7637 107.95 0)
+			(at 219.71 50.5363 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,7 +4200,7 @@
 	)
 	(global_label "Tacho2"
 		(shape input)
-		(at 156.21 130.81 0)
+		(at 156.21 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3951,7 +4210,7 @@
 		)
 		(uuid "b7d88d04-c060-40d9-8ac2-60d2fb1a3719")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.9079 130.81 0)
+			(at 165.9079 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +4222,7 @@
 	)
 	(global_label "RX"
 		(shape input)
-		(at 161.29 38.1 270)
+		(at 158.75 38.1 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3973,7 +4232,7 @@
 		)
 		(uuid "c07c31fd-697c-4d03-b0ec-5bff612c30af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.2106 42.9926 90)
+			(at 158.6706 42.9926 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4354,7 @@
 	)
 	(global_label "TMP0"
 		(shape input)
-		(at 156.21 143.51 0)
+		(at 156.21 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4105,7 +4364,7 @@
 		)
 		(uuid "e326feac-37db-4027-ba98-004515686a74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.0937 143.51 0)
+			(at 164.0937 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4139,7 +4398,7 @@
 	)
 	(global_label "TMP1"
 		(shape input)
-		(at 156.21 146.05 0)
+		(at 156.21 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4149,7 +4408,7 @@
 		)
 		(uuid "ea5f6651-40f5-4489-b640-7827a02b45c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.0937 146.05 0)
+			(at 164.0937 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,7 +4486,7 @@
 	)
 	(global_label "TMP0"
 		(shape input)
-		(at 182.88 100.33 0)
+		(at 219.71 31.75 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4237,7 +4496,7 @@
 		)
 		(uuid "fe1e1422-8aaf-443e-b6d2-c321545b8d73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.7637 100.33 0)
+			(at 219.71 23.8663 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,6 +4640,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Thermistor")
+		(at 212.09 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a0bff0f-35c5-4f47-98bb-7de93ed43f89")
+		(property "Reference" "TH3"
+			(at 212.09 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Thermistor"
+			(at 212.09 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 212.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor"
+			(at 212.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f33464f-18cb-4372-83a5-5116ac157ab1")
+		)
+		(pin "1"
+			(uuid "2221b3f3-7f52-4b29-be81-d556da3efd7b")
+		)
+		(instances
+			(project "fancontroller"
+				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
+					(reference "TH3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
 		(at 86.36 52.07 0)
 		(unit 1)
@@ -4477,7 +4804,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
 			(at 252.476 146.05 0)
 			(effects
 				(font
@@ -4609,7 +4936,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "Serial Conn"
 			(at 160.02 30.48 90)
 			(effects
 				(font
@@ -4617,7 +4944,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
 			(at 161.29 33.02 0)
 			(effects
 				(font
@@ -4732,16 +5059,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 104.14 52.07 0)
+		(lib_id "Device:Thermistor")
+		(at 212.09 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "30a8bb57-4360-47a6-bdc0-351deaa213ce")
-		(property "Reference" "#PWR020"
-			(at 104.14 55.88 0)
+		(fields_autoplaced yes)
+		(uuid "3633b04f-857b-4c59-b2ad-e7c0422c8a03")
+		(property "Reference" "TH2"
+			(at 212.09 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Thermistor"
+			(at 212.09 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 212.09 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4749,17 +5093,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 100.965 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 52.07 0)
+		(property "Datasheet" "~"
+			(at 212.09 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4767,8 +5102,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 104.14 52.07 0)
+		(property "Description" "Temperature dependent resistor"
+			(at 212.09 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,22 +5111,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 104.14 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "a2ac2601-1fa2-4e1b-9439-00fde8a232ce")
 		)
 		(pin "1"
-			(uuid "aac1cbc1-a1b2-4f43-a52d-c872f5e78637")
+			(uuid "4ac4dd9d-d918-492b-b59b-e3955284d8c6")
 		)
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR020")
+					(reference "TH2")
 					(unit 1)
 				)
 			)
@@ -4823,7 +5152,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
 			(at 228.346 129.54 0)
 			(effects
 				(font
@@ -5008,6 +5337,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 226.06 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e295485-316c-4ac4-bbe3-2e83a770197c")
+		(property "Reference" "R2"
+			(at 226.06 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 226.06 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 226.06 33.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 226.06 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfbfb29e-268a-4b9f-b735-d7b3fc100a21")
+		)
+		(pin "2"
+			(uuid "9b377f8d-0926-4b6f-ad22-ffaec99deaab")
+		)
+		(instances
+			(project "fancontroller"
+				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 140.97 156.21 0)
 		(unit 1)
@@ -5099,7 +5496,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
 			(at 252.476 129.54 0)
 			(effects
 				(font
@@ -5209,6 +5606,142 @@
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 226.06 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a562c75-041e-417a-b925-83a6ad3f896d")
+		(property "Reference" "R5"
+			(at 226.06 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 226.06 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 226.06 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 226.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93467408-9cf3-45c2-8c5e-4dab71508747")
+		)
+		(pin "2"
+			(uuid "6cd47f5f-8c04-4335-afa5-896787cf4401")
+		)
+		(instances
+			(project "fancontroller"
+				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor")
+		(at 212.09 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5abad01d-e450-4d17-829b-0a2fae230a07")
+		(property "Reference" "TH4"
+			(at 212.09 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Thermistor"
+			(at 212.09 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 212.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor"
+			(at 212.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56e40b6e-d2c6-4811-9fb4-a746bbe85882")
+		)
+		(pin "1"
+			(uuid "b2bc6e9c-1964-4a6f-9c9e-d8aa880009f9")
+		)
+		(instances
+			(project "fancontroller"
+				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
+					(reference "TH4")
 					(unit 1)
 				)
 			)
@@ -5480,17 +6013,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 182.88 100.33 270)
+		(lib_id "Device:R")
+		(at 226.06 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "98e9543d-68c9-4c12-bcb7-f5638e16684f")
-		(property "Reference" "#PWR09"
-			(at 176.53 100.33 0)
+		(uuid "83bdd0d1-c240-4ca9-b834-88ff1d579b10")
+		(property "Reference" "R3"
+			(at 226.06 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 226.06 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 226.06 42.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5498,17 +6047,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 179.07 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 100.33 0)
+		(property "Datasheet" "~"
+			(at 226.06 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5516,17 +6056,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 182.88 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 100.33 0)
+		(property "Description" "Resistor"
+			(at 226.06 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,12 +6066,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e7ab92d7-2282-41f4-a61f-d1b4b552775d")
+			(uuid "25918762-93b8-43ef-9348-d143962ba94a")
+		)
+		(pin "2"
+			(uuid "9006d2f8-ca3a-4bb1-ba4e-bde5d0539be5")
 		)
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR09")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5638,7 +6172,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
 			(at 228.346 146.05 0)
 			(effects
 				(font
@@ -5781,7 +6315,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
 			(at 228.346 110.49 0)
 			(effects
 				(font
@@ -5824,6 +6358,74 @@
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
 					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor")
+		(at 212.09 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d9f1055-da12-416a-b79b-70b45878a48d")
+		(property "Reference" "TH1"
+			(at 212.09 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Thermistor"
+			(at 212.09 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 212.09 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor"
+			(at 212.09 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d7afbd0-67d4-4aba-9ca0-1fe5748442ce")
+		)
+		(pin "1"
+			(uuid "b2730cab-76df-4434-ba01-57ccbbbf7c4f")
+		)
+		(instances
+			(project "fancontroller"
+				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
+					(reference "TH1")
 					(unit 1)
 				)
 			)
@@ -5891,6 +6493,73 @@
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac6d6d9b-03d8-4a29-b9b5-fa2f23798d02")
+		(property "Reference" "#PWR013"
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94ab23f5-1e9a-41aa-8f36-3ae627ef6864")
+		)
+		(instances
+			(project "fancontroller"
+				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5980,7 +6649,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 119.38 85.0899 0)
 			(effects
 				(font
@@ -5989,7 +6658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 115.062 83.82 90)
 			(effects
 				(font
@@ -6032,6 +6701,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 226.06 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b99edea0-8d32-42d7-a2f1-f54d347ff22c")
+		(property "Reference" "R4"
+			(at 226.06 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 226.06 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 226.06 51.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 226.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef8ebbc0-8759-4c1d-9aee-060d06c3e3f2")
+		)
+		(pin "2"
+			(uuid "cdc01963-6fe8-4f00-9e8b-bad02c943639")
+		)
+		(instances
+			(project "fancontroller"
+				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
 		(at 187.96 77.47 0)
 		(unit 1)
@@ -6057,7 +6794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 187.96 77.47 0)
 			(effects
 				(font
@@ -6128,7 +6865,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 106.68 82.55 0)
 			(effects
 				(font
@@ -6490,6 +7227,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 229.87 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd26dc69-8cdf-498d-9dd5-abe05f109606")
+		(property "Reference" "#PWR014"
+			(at 226.06 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 233.68 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 229.87 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed4c52f8-9f55-4a90-8767-888076d99cb9")
+		)
+		(instances
+			(project "fancontroller"
+				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 104.14 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df3a200d-be08-43b5-a59a-5e466cc08a17")
+		(property "Reference" "#PWR09"
+			(at 104.14 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 104.14 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 104.14 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8551a6b-7cae-437c-b5be-f3f98b7491b1")
+		)
+		(instances
+			(project "fancontroller"
+				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 130.81 34.29 90)
 		(unit 1)
@@ -6581,7 +7451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
 			(at 252.476 110.49 0)
 			(effects
 				(font
@@ -6647,7 +7517,7 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x04"
+		(property "Value" "Power"
 			(at 134.62 25.4 90)
 			(effects
 				(font
@@ -6655,7 +7525,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
 			(at 133.35 29.21 0)
 			(effects
 				(font

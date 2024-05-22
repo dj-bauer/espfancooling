@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "My custom shit")(type "KiCad")(uri "${KIPRJMOD}/RF_Module.kicad_sym")(options "")(descr "Coolio"))
+)
