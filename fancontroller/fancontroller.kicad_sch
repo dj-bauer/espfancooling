@@ -1199,7 +1199,7 @@
 				)
 				(pin passive line
 					(at -12.7 -19.05 0)
-					(length 2.54) hide
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -3321,10 +3321,6 @@
 		(uuid "2487cca4-5f0b-4a74-bb41-7e7c7e4752c5")
 	)
 	(no_connect
-		(at 128.27 137.16)
-		(uuid "3853ed98-ccca-46fc-a76c-c01332d4ed2d")
-	)
-	(no_connect
 		(at 125.73 120.65)
 		(uuid "4fefa8d5-2337-41d4-98bd-7567fcba14c3")
 	)
@@ -4024,7 +4020,7 @@
 	)
 	(global_label "TMP2"
 		(shape input)
-		(at 156.21 143.51 0)
+		(at 156.21 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4034,7 +4030,7 @@
 		)
 		(uuid "6ab09d24-5dad-409c-8536-6bccb487c940")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.0937 143.51 0)
+			(at 164.0937 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4398,7 +4394,7 @@
 	)
 	(global_label "TMP1"
 		(shape input)
-		(at 156.21 151.13 0)
+		(at 156.21 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4408,7 +4404,7 @@
 		)
 		(uuid "ea5f6651-40f5-4489-b640-7827a02b45c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.0937 151.13 0)
+			(at 164.0937 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5941,6 +5937,73 @@
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "786b2f3a-cd4a-470f-90d6-be8187843371")
+		(property "Reference" "#PWR015"
+			(at 121.92 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5256df54-69cc-4bc8-b7ed-cae79bf2fc19")
+		)
+		(instances
+			(project "fancontroller"
+				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
