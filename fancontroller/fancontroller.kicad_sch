@@ -1910,6 +1910,640 @@
 				)
 			)
 		)
+		(symbol "Graphic:SYM_EasterEgg_42x60mm"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "SYM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SYM_EasterEgg_42x60mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Symbol:EasterEgg_EWG1308-2013_ClassA"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2013:347:0671:0854:de:PDF"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "EasterEgg, ClassA, Medium Size"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "egg easter oval"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "EasterEgg*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SYM_EasterEgg_42x60mm_0_0"
+				(polyline
+					(pts
+						(xy -21.336 31.75) (xy 21.082 31.75)
+					)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -21.082 17.272) (xy 20.828 17.272)
+					)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -20.32 31.75) (xy -17.018 41.91)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -18.542 41.91) (xy 18.542 41.91)
+					)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -17.78 31.75) (xy -14.478 41.91)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 31.75) (xy -11.938 41.91)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 31.75) (xy -9.398 41.91)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 31.75) (xy -6.858 41.91)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -9.144 57.404) (xy 9.144 57.404)
+					)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 31.75) (xy -4.318 41.91)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 31.75) (xy -1.778 41.91)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 31.75) (xy 0.762 41.91)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 31.75) (xy 3.302 41.91)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 31.75) (xy 5.842 41.91)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 31.75) (xy 8.382 41.91)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 31.75) (xy 10.922 41.91)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 31.75) (xy 13.462 41.91)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 31.75) (xy 16.002 41.91)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 31.75) (xy 18.542 41.91)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 31.75) (xy 19.685 38.1)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 31.75) (xy 20.955 33.655)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 6.7876 0.8362) (xy 9.6194 2.1032) (xy 12.2601 3.7704) (xy 14.664 5.8069) (xy 16.7858 8.1821)
+						(xy 18.5799 10.8653) (xy 20.0009 13.8258) (xy 21.0033 17.0328) (xy 21.1579 17.9022) (xy 21.3178 19.4063)
+						(xy 21.4338 21.2395) (xy 21.5049 23.284) (xy 21.5298 25.422) (xy 21.5076 27.5357) (xy 21.4371 29.5073)
+						(xy 21.3173 31.219) (xy 21.1471 32.5531) (xy 21.0293 33.1976) (xy 19.8134 38.3331) (xy 18.153 43.1691)
+						(xy 16.0395 47.7248) (xy 13.4638 52.0197) (xy 10.4171 56.0733) (xy 9.6566 56.9666) (xy 8.2477 58.489)
+						(xy 6.9641 59.662) (xy 5.7116 60.5673) (xy 4.3959 61.2863) (xy 3.6465 61.6273) (xy 2.8869 61.9035)
+						(xy 2.1275 62.0584) (xy 1.1882 62.1264) (xy -0.1111 62.1414) (xy -1.2192 62.1318) (xy -2.2063 62.0754)
+						(xy -2.9835 61.9377) (xy -3.7313 61.6843) (xy -4.63 61.2808) (xy -5.679 60.7202) (xy -6.9361 59.8507)
+						(xy -8.2194 58.7217) (xy -9.6079 57.2622) (xy -11.1805 55.4015) (xy -14.1139 51.3837) (xy -16.6002 47.0991)
+						(xy -18.6319 42.5472) (xy -20.2187 37.706) (xy -21.3706 32.5531) (xy -21.5144 31.4761) (xy -21.6403 29.8364)
+						(xy -21.7184 27.9175) (xy -21.7496 25.8363) (xy -21.7349 23.7097) (xy -21.6753 21.6545) (xy -21.5719 19.7876)
+						(xy -21.4256 18.2259) (xy -21.2374 17.0862) (xy -20.7288 15.2493) (xy -19.4413 12.0552) (xy -17.7312 9.1385)
+						(xy -15.6363 6.5369) (xy -13.1945 4.2881) (xy -10.4433 2.4299) (xy -7.4207 0.9998) (xy -4.1643 0.0357)
+						(xy -2.4005 -0.2572) (xy 0.7322 -0.3747) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Graphic:SYM_Radioactive_Large"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at 2.413 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SYM_Radioactive_Large"
+				(at 2.413 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.413 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 3.175 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Radioactive/radiation warning symbol, large"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "symbol logo radioactive radiation warning heat"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SYM_Radioactive_Large_0_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 2.032) (xy 2.032 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -2.032) (xy 1.905 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 1.016) (xy 3.683 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.016) (xy 3.683 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 0) (xy 4.826 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.016) (xy 3.683 -2.032) (xy 4.191 -1.651) (xy 4.572 -1.016) (xy 4.699 -0.381) (xy 4.826 0)
+						(xy 3.556 0) (xy 3.556 -0.381) (xy 3.302 -0.762) (xy 3.048 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 0) (xy 1.27 -0.254) (xy 1.397 -0.508) (xy 1.651 -0.889) (xy 1.905 -1.016) (xy 1.397 -2.032)
+						(xy 1.016 -1.778) (xy 0.635 -1.397) (xy 0.254 -0.889) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 1.016) (xy 1.397 1.905) (xy 1.143 2.032) (xy 1.778 2.286) (xy 2.667 2.159) (xy 3.048 2.159)
+						(xy 3.175 2.032) (xy 3.556 1.905) (xy 2.921 1.016) (xy 2.54 1.143) (xy 2.286 1.143) (xy 2.032 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.419 -1.2071)
+					(end 1.397 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 0)
+					(mid 1.4524 -0.587)
+					(end 1.905 -1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.413 0)
+					(radius 0.8128)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 2.921 1.016)
+					(mid 2.4757 1.104)
+					(end 2.032 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.048 -1.016)
+					(mid 3.4219 -0.568)
+					(end 3.556 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.683 -2.032)
+					(mid 4.5507 -1.1815)
+					(end 4.826 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.683 2.032)
+					(mid 2.413 2.3778)
+					(end 1.143 2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SYM_Radioactive_Large_0_1"
+				(polyline
+					(pts
+						(xy -2.667 -3.048) (xy 7.493 -3.048) (xy 2.413 5.842) (xy -2.667 -3.048)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Jumper:Jumper_3_Open"
 			(pin_names
 				(offset 0) hide)
@@ -4746,7 +5380,7 @@
 	)
 	(global_label "Tacho5"
 		(shape input)
-		(at 156.21 115.57 0)
+		(at 156.21 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4756,7 +5390,7 @@
 		)
 		(uuid "0cb74024-d0d4-4e0f-b9af-d8f4e26421cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.9079 115.57 0)
+			(at 165.9079 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,7 +5446,7 @@
 	)
 	(global_label "Tacho1"
 		(shape input)
-		(at 156.21 130.81 0)
+		(at 156.21 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4822,7 +5456,7 @@
 		)
 		(uuid "24f1c720-527e-44a7-af75-412f06ac5b87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.9079 130.81 0)
+			(at 165.9079 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4834,7 +5468,7 @@
 	)
 	(global_label "PWM1"
 		(shape input)
-		(at 156.21 133.35 0)
+		(at 156.21 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4844,7 +5478,7 @@
 		)
 		(uuid "2d77698b-49be-4a3c-b127-321df6a7c9ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.5775 133.35 0)
+			(at 164.5775 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,7 +5556,7 @@
 	)
 	(global_label "PWM4"
 		(shape input)
-		(at 156.21 118.11 0)
+		(at 156.21 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4932,7 +5566,7 @@
 		)
 		(uuid "3814c955-669c-4e8d-9b20-1607c2974555")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.5775 118.11 0)
+			(at 164.5775 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,7 +5578,7 @@
 	)
 	(global_label "Tacho4"
 		(shape input)
-		(at 156.21 120.65 0)
+		(at 156.21 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4954,7 +5588,7 @@
 		)
 		(uuid "39d36d2d-a484-4d79-9430-184e4b4af8a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.9079 120.65 0)
+			(at 165.9079 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,7 +5600,7 @@
 	)
 	(global_label "Tacho3"
 		(shape input)
-		(at 156.21 125.73 0)
+		(at 156.21 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4976,7 +5610,7 @@
 		)
 		(uuid "3fe2d0d6-07f9-4ecb-94cc-280e2fcb2109")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.9079 125.73 0)
+			(at 165.9079 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +5710,7 @@
 	)
 	(global_label "PWM2"
 		(shape input)
-		(at 156.21 128.27 0)
+		(at 156.21 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5086,7 +5720,7 @@
 		)
 		(uuid "6d8be9d0-b5e5-4be0-9637-78c0687143ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.5775 128.27 0)
+			(at 164.5775 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5142,7 +5776,7 @@
 	)
 	(global_label "PWM5"
 		(shape input)
-		(at 156.21 113.03 0)
+		(at 156.21 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5152,7 +5786,7 @@
 		)
 		(uuid "94985dae-b287-4071-b7e1-6cd891aa428e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.5775 113.03 0)
+			(at 164.5775 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5230,7 +5864,7 @@
 	)
 	(global_label "Tacho2"
 		(shape input)
-		(at 156.21 135.89 0)
+		(at 156.21 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5240,7 +5874,7 @@
 		)
 		(uuid "b7d88d04-c060-40d9-8ac2-60d2fb1a3719")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.9079 135.89 0)
+			(at 165.9079 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,7 +5952,7 @@
 	)
 	(global_label "PWM3"
 		(shape input)
-		(at 156.21 123.19 0)
+		(at 156.21 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5328,7 +5962,7 @@
 		)
 		(uuid "cf7e7a07-308c-4d0b-8308-48a94319c8d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.5775 123.19 0)
+			(at 164.5775 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5554,7 +6188,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 26.67 119.38 90)
 			(effects
 				(font
@@ -5589,6 +6223,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C365230"
+			(at 26.67 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "13830d51-3b14-41b5-9e32-bbca7a472e04")
 		)
@@ -5599,6 +6242,79 @@
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_EasterEgg_42x60mm")
+		(at 240.03 144.78 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00bfaa78-f921-4bf9-a34c-06c337daac0f")
+		(property "Reference" "SYM1"
+			(at 240.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_EasterEgg_42x60mm"
+			(at 240.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Symbol:Symbol_GNU-Logo_SilkscreenTop"
+			(at 240.03 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2013:347:0671:0854:de:PDF"
+			(at 240.03 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "EasterEgg, ClassA, Medium Size"
+			(at 240.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 240.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
+					(reference "SYM1")
 					(unit 1)
 				)
 			)
@@ -5724,6 +6440,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5360898"
+			(at 212.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f33464f-18cb-4372-83a5-5116ac157ab1")
 		)
@@ -5784,6 +6509,15 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 86.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 86.36 52.07 0)
 			(effects
 				(font
@@ -5855,6 +6589,15 @@
 			)
 		)
 		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
+			(at 39.37 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 39.37 118.11 0)
 			(effects
 				(font
@@ -6008,6 +6751,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C15127"
+			(at 74.93 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "28c8f541-77e0-428d-a2b2-920f9ac67fad")
 		)
@@ -6111,7 +6863,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 26.67 102.87 90)
 			(effects
 				(font
@@ -6138,6 +6890,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 26.67 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C365230"
 			(at 26.67 106.68 0)
 			(effects
 				(font
@@ -6219,6 +6980,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C20917"
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61d5a4a6-c2d9-4f01-9179-66efe218e902")
 		)
@@ -6282,6 +7052,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 161.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C5116483"
 			(at 161.29 33.02 0)
 			(effects
 				(font
@@ -6497,6 +7276,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5360898"
+			(at 212.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a2ac2601-1fa2-4e1b-9439-00fde8a232ce")
 		)
@@ -6557,6 +7345,15 @@
 			)
 		)
 		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
+			(at 39.37 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 39.37 153.67 0)
 			(effects
 				(font
@@ -6636,6 +7433,15 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 59.69 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C20917"
 			(at 59.69 120.65 0)
 			(effects
 				(font
@@ -6783,6 +7589,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 97.79 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "386a67dd-daa9-49a2-b469-5c68f34a77cf")
 		)
@@ -6843,6 +7658,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 226.06 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C365230"
 			(at 226.06 31.75 0)
 			(effects
 				(font
@@ -6985,6 +7809,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 39.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "10b3ccdb-03b6-4577-bb29-37156a844894")
 		)
@@ -7056,6 +7889,15 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 59.69 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C20917"
 			(at 59.69 156.21 0)
 			(effects
 				(font
@@ -7269,6 +8111,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C365230"
+			(at 226.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "93467408-9cf3-45c2-8c5e-4dab71508747")
 		)
@@ -7337,6 +8188,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5360898"
+			(at 212.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "56e40b6e-d2c6-4811-9fb4-a746bbe85882")
 		)
@@ -7370,7 +8230,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 26.67 171.45 90)
 			(effects
 				(font
@@ -7397,6 +8257,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 26.67 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C365230"
 			(at 26.67 175.26 0)
 			(effects
 				(font
@@ -7470,6 +8339,15 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 59.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
 			(at 59.69 95.25 0)
 			(effects
 				(font
@@ -7580,7 +8458,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 26.67 135.89 90)
 			(effects
 				(font
@@ -7607,6 +8485,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 26.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C365230"
 			(at 26.67 139.7 0)
 			(effects
 				(font
@@ -8150,6 +9037,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C365230"
+			(at 226.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25918762-93b8-43ef-9348-d143962ba94a")
 		)
@@ -8232,6 +9128,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Graphic:SYM_Radioactive_Large")
+		(at 135.89 106.68 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "867fd98d-6dde-4254-9120-9e98e15ded28")
+		(property "Reference" "#SYM1"
+			(at 138.303 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Radioactive_Large"
+			(at 138.303 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.303 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.065 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Radioactive/radiation warning symbol, large"
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
+					(reference "#SYM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 26.67 87.63 90)
 		(unit 1)
@@ -8249,7 +9209,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 26.67 83.82 90)
 			(effects
 				(font
@@ -8276,6 +9236,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 26.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C365230"
 			(at 26.67 87.63 0)
 			(effects
 				(font
@@ -8357,6 +9326,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C20917"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ee8228dc-fd4b-4a18-8b98-da0c8e3c7e53")
 		)
@@ -8425,6 +9403,15 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 74.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C20917"
 			(at 74.93 137.16 0)
 			(effects
 				(font
@@ -8562,6 +9549,15 @@
 			)
 		)
 		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
+			(at 39.37 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 39.37 170.18 0)
 			(effects
 				(font
@@ -8716,6 +9712,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C15127"
+			(at 74.93 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "dfe89187-bee0-4a79-8502-6bd591805ce8")
 		)
@@ -8784,6 +9789,15 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 59.69 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
 			(at 59.69 166.37 0)
 			(effects
 				(font
@@ -8864,6 +9878,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 76.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05b9b481-5921-4be8-80f7-41db6af842f1")
 		)
@@ -8924,6 +9947,15 @@
 			)
 		)
 		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
+			(at 39.37 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 39.37 134.62 0)
 			(effects
 				(font
@@ -8998,6 +10030,15 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor"
+			(at 212.09 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C5360898"
 			(at 212.09 31.75 0)
 			(effects
 				(font
@@ -9342,6 +10383,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C140871"
+			(at 116.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d66b1e47-f02f-45ee-967b-81fa03a1cfbb")
 		)
@@ -9442,7 +10492,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 26.67 154.94 90)
 			(effects
 				(font
@@ -9469,6 +10519,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 26.67 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C365230"
 			(at 26.67 158.75 0)
 			(effects
 				(font
@@ -9545,6 +10604,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C365230"
+			(at 226.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef8ebbc0-8759-4c1d-9aee-060d06c3e3f2")
 		)
@@ -9605,6 +10673,15 @@
 			)
 		)
 		(property "Description" "Jumper, 3-pole, both open"
+			(at 187.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C27985188"
 			(at 187.96 77.47 0)
 			(effects
 				(font
@@ -9676,6 +10753,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 106.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C5360898"
 			(at 106.68 87.63 0)
 			(effects
 				(font
@@ -9813,6 +10899,15 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
+			(at 140.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 140.97 118.11 0)
 			(effects
 				(font
@@ -10003,6 +11098,15 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
 			(at 59.69 130.81 0)
 			(effects
 				(font
@@ -10353,6 +11457,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C15127"
+			(at 74.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7629f291-7dc3-4d01-812a-798c2fa4d23a")
 		)
@@ -10557,6 +11670,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 39.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "69c36507-707e-4cb5-b891-197af679795a")
 		)
@@ -10623,6 +11745,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 133.35 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C915913"
 			(at 133.35 29.21 0)
 			(effects
 				(font
@@ -10777,6 +11908,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C20917"
+			(at 59.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81cadaca-36e3-436b-ac8e-dc481052b417")
 		)
@@ -10841,6 +11981,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 104.14 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 104.14 55.88 0)
 			(effects
 				(font

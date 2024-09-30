@@ -58,7 +58,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "drill_out_of_range|80295000|104442500|96a13b5f-64bd-487d-81ab-f22cf492ad14|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|80295000|105967500|62c6d4e9-163c-45f4-8458-2d731e1d058a|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|81057500|103680000|9cb546c2-2bed-409a-ae98-403c2a82e6b0|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|81057500|105205000|9e58a0b6-cb87-49ea-8ef0-d14b2273140b|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|81057500|106730000|c82d942a-8ccf-4e7b-9ed8-b2b4b198a7b1|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|81820000|104442500|fdf560f9-298a-4638-885d-bd3453e284f3|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|81820000|105967500|75ebabf8-4fdd-431a-8655-ea58269a5647|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|82582500|103680000|db7d0645-ce4d-4810-b242-65bf2cc0b6cb|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|82582500|105205000|0e77c38b-9ead-45d8-9a5b-4d5759908f97|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|82582500|106730000|d79d9277-c9cf-4478-bf8a-ac0515fcb696|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|83345000|104442500|83c79c3b-5a98-4c31-8eba-6f1a0543ae04|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|83345000|105967500|b4740fe2-7420-45a0-b704-ab6441d65359|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -131,7 +144,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -481,8 +494,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "/home/dbauer/fab/",
+      "pos_files": "../../../fab/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -509,6 +522,12 @@
       "fields_ordered": [
         {
           "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -517,6 +536,12 @@
           "group_by": true,
           "label": "Value",
           "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
           "show": true
         },
         {
@@ -532,23 +557,29 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${QUANTITY}"
     },
     "connection_grid_size": 50.0,
     "drawing": {
