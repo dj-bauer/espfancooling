@@ -6223,7 +6223,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C365230"
+		(property "LCSC Part #" "C17414"
+			(at 26.67 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 26.67 123.19 0)
 			(effects
 				(font
@@ -6303,6 +6312,15 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 240.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 240.03 144.78 0)
 			(effects
 				(font
@@ -6449,6 +6467,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 212.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f33464f-18cb-4372-83a5-5116ac157ab1")
 		)
@@ -6518,6 +6545,15 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 86.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 86.36 52.07 0)
 			(effects
 				(font
@@ -6597,7 +6633,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C402778"
+			(at 39.37 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
 			(at 39.37 118.11 0)
 			(effects
 				(font
@@ -6760,6 +6805,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 74.93 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "28c8f541-77e0-428d-a2b2-920f9ac67fad")
 		)
@@ -6898,7 +6952,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C365230"
+		(property "LCSC Part #" "C17414"
+			(at 26.67 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 26.67 106.68 0)
 			(effects
 				(font
@@ -6989,6 +7052,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61d5a4a6-c2d9-4f01-9179-66efe218e902")
 		)
@@ -7061,6 +7133,15 @@
 			)
 		)
 		(property "LCSC Part #" "C5116483"
+			(at 161.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
 			(at 161.29 33.02 0)
 			(effects
 				(font
@@ -7285,6 +7366,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 212.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a2ac2601-1fa2-4e1b-9439-00fde8a232ce")
 		)
@@ -7353,7 +7443,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C402778"
+			(at 39.37 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
 			(at 39.37 153.67 0)
 			(effects
 				(font
@@ -7442,6 +7541,15 @@
 			)
 		)
 		(property "LCSC Part #" "C20917"
+			(at 59.69 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 59.69 120.65 0)
 			(effects
 				(font
@@ -7562,7 +7670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 98.7552 59.69 0)
 			(effects
 				(font
@@ -7589,7 +7697,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C249836"
+			(at 97.79 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
 			(at 97.79 55.88 0)
 			(effects
 				(font
@@ -7666,7 +7783,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C365230"
+		(property "LCSC Part #" "C17414"
+			(at 226.06 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 226.06 31.75 0)
 			(effects
 				(font
@@ -7809,7 +7935,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C402778"
+			(at 39.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
 			(at 39.37 101.6 0)
 			(effects
 				(font
@@ -7898,6 +8033,15 @@
 			)
 		)
 		(property "LCSC Part #" "C20917"
+			(at 59.69 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 59.69 156.21 0)
 			(effects
 				(font
@@ -8111,7 +8255,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C365230"
+		(property "LCSC Part #" "C17414"
+			(at 226.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 226.06 58.42 0)
 			(effects
 				(font
@@ -8197,6 +8350,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 212.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "56e40b6e-d2c6-4811-9fb4-a746bbe85882")
 		)
@@ -8265,7 +8427,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C365230"
+		(property "LCSC Part #" "C17414"
+			(at 26.67 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 26.67 175.26 0)
 			(effects
 				(font
@@ -8348,6 +8519,15 @@
 			)
 		)
 		(property "LCSC Part #" "C15127"
+			(at 59.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 59.69 95.25 0)
 			(effects
 				(font
@@ -8493,7 +8673,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C365230"
+		(property "LCSC Part #" "C17414"
+			(at 26.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 26.67 139.7 0)
 			(effects
 				(font
@@ -9037,7 +9226,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C365230"
+		(property "LCSC Part #" "C17414"
+			(at 226.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 226.06 40.64 0)
 			(effects
 				(font
@@ -9244,7 +9442,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C365230"
+		(property "LCSC Part #" "C17414"
+			(at 26.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 26.67 87.63 0)
 			(effects
 				(font
@@ -9335,6 +9542,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ee8228dc-fd4b-4a18-8b98-da0c8e3c7e53")
 		)
@@ -9412,6 +9628,15 @@
 			)
 		)
 		(property "LCSC Part #" "C20917"
+			(at 74.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 74.93 137.16 0)
 			(effects
 				(font
@@ -9557,7 +9782,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C402778"
+			(at 39.37 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
 			(at 39.37 170.18 0)
 			(effects
 				(font
@@ -9721,6 +9955,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 74.93 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "dfe89187-bee0-4a79-8502-6bd591805ce8")
 		)
@@ -9806,6 +10049,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 59.69 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "c04c0db3-9882-4924-a9cb-7aaf6e6ab6de")
 		)
@@ -9851,7 +10103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 77.1652 59.69 0)
 			(effects
 				(font
@@ -9878,7 +10130,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C440198"
+			(at 76.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 76.2 55.88 0)
 			(effects
 				(font
@@ -9955,7 +10216,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C402778"
+			(at 39.37 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
 			(at 39.37 134.62 0)
 			(effects
 				(font
@@ -10039,6 +10309,15 @@
 			)
 		)
 		(property "LCSC Part #" "C5360898"
+			(at 212.09 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
 			(at 212.09 31.75 0)
 			(effects
 				(font
@@ -10383,7 +10662,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C140871"
+		(property "LCSC Part #" "C17513"
+			(at 116.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 116.84 83.82 0)
 			(effects
 				(font
@@ -10527,7 +10815,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C365230"
+		(property "LCSC Part #" "C17414"
+			(at 26.67 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 26.67 158.75 0)
 			(effects
 				(font
@@ -10604,7 +10901,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C365230"
+		(property "LCSC Part #" "C17414"
+			(at 226.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 226.06 49.53 0)
 			(effects
 				(font
@@ -10690,6 +10996,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 187.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9d8c43c-3f6e-488c-a5c0-4e530a047000")
 		)
@@ -10762,6 +11077,15 @@
 			)
 		)
 		(property "LCSC Part #" "C5360898"
+			(at 106.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
 			(at 106.68 87.63 0)
 			(effects
 				(font
@@ -10908,6 +11232,15 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 140.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 140.97 118.11 0)
 			(effects
 				(font
@@ -11107,6 +11440,15 @@
 			)
 		)
 		(property "LCSC Part #" "C15127"
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 59.69 130.81 0)
 			(effects
 				(font
@@ -11466,6 +11808,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 74.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7629f291-7dc3-4d01-812a-798c2fa4d23a")
 		)
@@ -11670,7 +12021,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C402778"
+			(at 39.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
 			(at 39.37 82.55 0)
 			(effects
 				(font
@@ -11754,6 +12114,15 @@
 			)
 		)
 		(property "LCSC Part #" "C915913"
+			(at 133.35 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
 			(at 133.35 29.21 0)
 			(effects
 				(font
@@ -11917,6 +12286,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 59.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81cadaca-36e3-436b-ac8e-dc481052b417")
 		)
@@ -11962,7 +12340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 105.1052 59.69 0)
 			(effects
 				(font
@@ -11989,7 +12367,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C49678"
+			(at 104.14 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 104.14 55.88 0)
 			(effects
 				(font
