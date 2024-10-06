@@ -444,7 +444,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -630,6 +630,10 @@
     [
       "0224fd83-71fd-467a-bea0-55e2843206f4",
       "Root"
+    ],
+    [
+      "be409fd2-1b28-4433-8b83-8b7258382816",
+      "Motor_Connections"
     ]
   ],
   "text_variables": {}

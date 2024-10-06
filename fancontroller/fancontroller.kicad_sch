@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "0224fd83-71fd-467a-bea0-55e2843206f4")
 	(paper "A4")
+	(title_block
+		(title "ESP Fancontroller")
+		(rev "0.2")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
@@ -2741,15 +2745,12 @@
 				)
 			)
 		)
-		(symbol "Motor:Fan_Tacho_PWM"
-			(pin_names
-				(offset 0)
-			)
+		(symbol "PCM_Espressif:ESP32"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "M"
-				(at 2.54 5.08 0)
+			(property "Reference" "U"
+				(at -30.48 40.64 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2757,26 +2758,17 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Fan_Tacho_PWM"
-				(at 2.54 -2.54 0)
+			(property "Value" "ESP32"
+				(at -30.48 38.1 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
-				(at 0 0.254 0)
+			(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.3x4.3mm"
+				(at 0 -48.26 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2784,7 +2776,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
+			(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf"
+				(at 0 -50.8 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESP32 is a single 2.4 GHz Wi-Fi-and-Bluetooth combo chip designed with the TSMC ultra-low-power 40 nmtechnology."
 				(at 0 0 0)
 				(effects
 					(font
@@ -2793,7 +2794,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Fan Motor tacho PWM"
+			(property "ki_keywords" "esp32 soc wifi bluetooth ethernet"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2802,216 +2803,34 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "FanPinHeader*P2.54mm*Vertical* PinHeader*P2.54mm*Vertical* TerminalBlock*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fan_Tacho_PWM_0_0"
-				(arc
-					(start -5.588 1.524)
-					(mid -5.08 1.0182)
-					(end -4.572 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 2.032)
-					(mid -5.4392 1.8832)
-					(end -5.588 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.032) (xy -5.334 2.159)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.032) (xy -5.207 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.064 2.54) (xy -4.064 1.016) (xy -3.302 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+			(symbol "ESP32_0_0"
+				(text "ESP32"
+					(at 0 12.7 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
 					)
 				)
 			)
-			(symbol "Fan_Tacho_PWM_0_1"
-				(arc
-					(start -2.54 -0.508)
-					(mid 0.0028 0.9121)
-					(end 0 3.81)
+			(symbol "ESP32_0_1"
+				(rectangle
+					(start -30.48 35.56)
+					(end 30.48 -35.56)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.064 2.54) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0 -4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.2352) (xy 0 -2.6416)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 4.2672) (xy 0 4.6228)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 4.572) (xy 0 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.016) (xy -4.064 -1.016) (xy -4.064 -2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.334 -3.302) (xy -5.08 -3.302) (xy -5.08 -3.048) (xy -4.826 -3.048) (xy -4.826 -3.302) (xy -4.318 -3.302)
-						(xy -4.318 -3.048) (xy -4.064 -3.048) (xy -4.064 -3.302) (xy -3.556 -3.302)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 1.016)
-					(radius 3.2512)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.81)
-					(mid 0.053 0.921)
-					(end 2.54 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -0.508)
-					(mid 0 1.0618)
-					(end -2.54 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
-			(symbol "Fan_Tacho_PWM_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
+			(symbol "ESP32_1_1"
+				(pin power_in line
+					(at -2.54 38.1 270)
 					(length 2.54)
-					(name "-"
+					(name "VDDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3026,10 +2845,190 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 7.62 270)
+				(pin input line
+					(at -33.02 -12.7 0)
 					(length 2.54)
-					(name "+"
+					(name "VDET_1/GPIO34/ADC1_CH6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 -15.24 0)
+					(length 2.54)
+					(name "VDET_2/GPIO35/ADC1_CH7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 22.86 0)
+					(length 2.54)
+					(name "32K_XP/GPIO32/ADC1_CH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 20.32 0)
+					(length 2.54)
+					(name "32K_XN/GPIO33/ADC1_CH5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 0 180)
+					(length 2.54)
+					(name "GPIO25/ADC2_CH8/DAC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -2.54 180)
+					(length 2.54)
+					(name "GPIO26/ADC2_CH9/DAC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -5.08 180)
+					(length 2.54)
+					(name "GPIO27/ADC2_CH7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 2.54 0)
+					(length 2.54)
+					(name "MTMS/GPIO14/ADC2_CH6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 7.62 0)
+					(length 2.54)
+					(name "MTDI/GPIO12/ADC2_CH5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 38.1 270)
+					(length 2.54)
+					(name "VDD3P3_RTC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 33.02 0)
+					(length 2.54)
+					(name "LNA_IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3044,10 +3043,190 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -7.62 2.54 0)
+				(pin bidirectional line
+					(at -33.02 5.08 0)
 					(length 2.54)
-					(name "Tacho"
+					(name "MTCK/GPIO13/ADC2_CH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 0 0)
+					(length 2.54)
+					(name "MTDO/GPIO15/ADC2_CH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 20.32 180)
+					(length 2.54)
+					(name "GPIO2/ADC2_CH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 22.86 180)
+					(length 2.54)
+					(name "GPIO0/BOOT/ADC2_CH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 17.78 180)
+					(length 2.54)
+					(name "GPIO4/ADC2_CH0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -30.48 180)
+					(length 2.54)
+					(name "GPIO16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -5.08 38.1 270)
+					(length 2.54)
+					(name "VDD_SDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -33.02 180)
+					(length 2.54)
+					(name "GPIO17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -22.86 180)
+					(length 2.54)
+					(name "SD_DATA_2/GPIO9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -25.4 180)
+					(length 2.54)
+					(name "SD_DATA_3/GPIO10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 38.1 270)
+					(length 2.54)
+					(name "VDD3P3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3062,10 +3241,190 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 -2.54 0)
+				(pin bidirectional line
+					(at 33.02 -27.94 180)
 					(length 2.54)
-					(name "PWM"
+					(name "SD_CMD/GPIO11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -15.24 180)
+					(length 2.54)
+					(name "SD_CLK/GPIO6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -17.78 180)
+					(length 2.54)
+					(name "SD_DATA_0/GPIO7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -20.32 180)
+					(length 2.54)
+					(name "SD_DATA_1/GPIO8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 15.24 180)
+					(length 2.54)
+					(name "GPIO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 12.7 180)
+					(length 2.54)
+					(name "GPIO18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 2.54 180)
+					(length 2.54)
+					(name "GPIO23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 38.1 270)
+					(length 2.54)
+					(name "VDD3P3_CPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 10.16 180)
+					(length 2.54)
+					(name "GPIO19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 5.08 180)
+					(length 2.54)
+					(name "GPIO22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 38.1 270)
+					(length 2.54) hide
+					(name "VDD3P3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3073,6 +3432,276 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 27.94 180)
+					(length 2.54)
+					(name "U0RXD/GPIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 30.48 180)
+					(length 2.54)
+					(name "U0TXD/GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 7.62 180)
+					(length 2.54)
+					(name "GPIO21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 38.1 270)
+					(length 2.54) hide
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -33.02 15.24 0)
+					(length 2.54)
+					(name "XTAL_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 12.7 0)
+					(length 2.54)
+					(name "XTAL_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 38.1 270)
+					(length 2.54) hide
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 -33.02 0)
+					(length 2.54)
+					(name "CAP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 -30.48 0)
+					(length 2.54)
+					(name "CAP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 -17.78 0)
+					(length 2.54)
+					(name "SENSOR_VP/GPIO36/ADC1_CH0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 -20.32 0)
+					(length 2.54)
+					(name "SENSOR_CAPP/GPIO37/ADC1_CH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 -22.86 0)
+					(length 2.54)
+					(name "SENSOR_CAPN/GPIO38/ADC1_CH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 -25.4 0)
+					(length 2.54)
+					(name "SENSOR_VN/GPIO39/ADC1_CH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 27.94 0)
+					(length 2.54)
+					(name "CHIP_PU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3354,596 +3983,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Transistor_FET:AO3400A"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AO3400A"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AO3400A_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "AO3400A_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Transistor_FET:AO3401A"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AO3401A"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "P-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AO3401A_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "AO3401A_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4411,42 +4450,6 @@
 		)
 	)
 	(junction
-		(at 31.75 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12f12b39-050e-47ec-8055-1af7fd8fc3cd")
-	)
-	(junction
-		(at 31.75 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1595b080-312b-4e18-a532-195c1e93e8c7")
-	)
-	(junction
-		(at 44.45 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "176cf4db-9cb1-430a-9676-783a35324321")
-	)
-	(junction
-		(at 31.75 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2be9c3ef-dc8d-4504-919d-ada826c7a9dc")
-	)
-	(junction
-		(at 44.45 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cafa933-f157-4035-a680-23eab9783101")
-	)
-	(junction
-		(at 20.32 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "457daf8b-c4d7-436f-8440-fd1c252bcca0")
-	)
-	(junction
 		(at 86.36 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4459,28 +4462,10 @@
 		(uuid "5951cad1-dac6-4b00-a883-7f316545dacd")
 	)
 	(junction
-		(at 31.75 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5bec0713-937d-4d47-afcc-53e07ccef04d")
-	)
-	(junction
-		(at 20.32 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5fd36877-1177-4bd0-90c4-e5e1fb1bb244")
-	)
-	(junction
 		(at 104.14 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6697c752-d941-4391-abfc-73f6ed308b16")
-	)
-	(junction
-		(at 31.75 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a645bb0-1d96-49cc-aae9-e53520e43779")
 	)
 	(junction
 		(at 97.79 52.07)
@@ -4489,28 +4474,16 @@
 		(uuid "6b8ef19a-0d8d-490f-bccd-46132f3f19ff")
 	)
 	(junction
-		(at 44.45 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d827c66-760f-467b-a966-95edbd0c2408")
-	)
-	(junction
-		(at 72.39 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7253a6e9-249d-4b66-825e-9509777c5549")
-	)
-	(junction
-		(at 57.15 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7507ac1c-5275-45e1-8353-959604c59bc8")
-	)
-	(junction
 		(at 229.87 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a334155-5b31-489a-ae95-69d18edd3eff")
+	)
+	(junction
+		(at 138.43 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ddc9aec-d64c-47fd-a592-b69ba39ef83b")
 	)
 	(junction
 		(at 76.2 52.07)
@@ -4531,12 +4504,6 @@
 		(uuid "94794c39-e7ea-4a02-a036-a0fc90943c58")
 	)
 	(junction
-		(at 20.32 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e830cb4-c8d3-437b-b769-25c091d94977")
-	)
-	(junction
 		(at 116.84 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4555,30 +4522,6 @@
 		(uuid "b16b0521-b2cb-468f-8203-311dc191598e")
 	)
 	(junction
-		(at 44.45 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4748d55-bc6d-4c27-a986-dd21eeb29c13")
-	)
-	(junction
-		(at 20.32 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "baf1e138-9024-46db-bb9b-2e547e510daf")
-	)
-	(junction
-		(at 44.45 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c05ab2cf-27f8-4073-9734-1b65432744aa")
-	)
-	(junction
-		(at 72.39 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c12a00ef-7006-4936-9af2-793d7e788467")
-	)
-	(junction
 		(at 207.01 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4591,34 +4534,10 @@
 		(uuid "ee5dd4e0-dd2b-4280-a711-11012828541e")
 	)
 	(junction
-		(at 72.39 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef75bdaf-d110-4a05-86e4-e689b7675e8d")
-	)
-	(junction
-		(at 57.15 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f007818f-7644-41d1-a861-587df87254b9")
-	)
-	(junction
-		(at 57.15 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f39ecce7-6e21-44b2-acd9-9afaad86554f")
-	)
-	(junction
 		(at 133.35 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4bf1b7e-6894-43f9-ad3a-d698b1b369d1")
-	)
-	(junction
-		(at 20.32 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6ce58ba-1ff8-4e99-83f1-6953289a34da")
 	)
 	(no_connect
 		(at 125.73 128.27)
@@ -4690,106 +4609,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 125.73) (xy 36.83 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "134b62e1-b4f4-4878-b8f5-a4996dc87d94")
-	)
-	(wire
-		(pts
-			(xy 41.91 90.17) (xy 57.15 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13cea008-1d9d-4f95-8c52-2b0df2aa9815")
-	)
-	(wire
-		(pts
-			(xy 41.91 109.22) (xy 72.39 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "180016cf-d708-40e1-941c-416a8e36f927")
-	)
-	(wire
-		(pts
-			(xy 20.32 139.7) (xy 20.32 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d6a8876-e889-4571-ab4e-f59bc2a7c405")
-	)
-	(wire
-		(pts
-			(xy 30.48 123.19) (xy 30.48 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "201e9970-acda-4160-ba20-dfdbdab9d0bd")
-	)
-	(wire
-		(pts
-			(xy 44.45 118.11) (xy 44.45 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24f3b60f-82ac-4fca-9343-357733e3609f")
-	)
-	(wire
-		(pts
-			(xy 64.77 130.81) (xy 64.77 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "292f629a-6077-4e82-a1d4-2dc200acf8fb")
-	)
-	(wire
-		(pts
-			(xy 80.01 114.3) (xy 80.01 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c184740-ad74-44ab-a163-2e818e9a7898")
-	)
-	(wire
-		(pts
-			(xy 30.48 175.26) (xy 30.48 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c68378b-c3dd-4134-82b0-1d41f7a5455a")
-	)
-	(wire
-		(pts
-			(xy 30.48 158.75) (xy 30.48 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2db7373d-3707-46e0-98c4-5608353d5b7c")
-	)
-	(wire
-		(pts
 			(xy 86.36 59.69) (xy 97.79 59.69)
 		)
 		(stroke
@@ -4810,16 +4629,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 106.68) (xy 30.48 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41bf6bcb-a72b-49cd-8e12-d2450553a00a")
-	)
-	(wire
-		(pts
 			(xy 97.79 52.07) (xy 104.14 52.07)
 		)
 		(stroke
@@ -4827,26 +4636,6 @@
 			(type default)
 		)
 		(uuid "41fb54d7-8c7b-4d30-b25f-b5b4bbf4a5cb")
-	)
-	(wire
-		(pts
-			(xy 64.77 166.37) (xy 64.77 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47ab0b6f-9967-4a4e-b877-1eefcb18c3d5")
-	)
-	(wire
-		(pts
-			(xy 30.48 87.63) (xy 30.48 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4be35aa8-2838-43d7-95c9-e06c35136fb8")
 	)
 	(wire
 		(pts
@@ -4890,46 +4679,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 158.75) (xy 20.32 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6376da1c-d1d7-4c10-a9f6-25fc4039f125")
-	)
-	(wire
-		(pts
-			(xy 30.48 90.17) (xy 36.83 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64785049-914a-4d0e-b964-aadbda23003a")
-	)
-	(wire
-		(pts
-			(xy 20.32 123.19) (xy 20.32 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66f60507-6f3d-41a1-bd67-7467ce2b8986")
-	)
-	(wire
-		(pts
-			(xy 20.32 106.68) (xy 20.32 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67672c1d-b130-47c2-b1cc-1fac3c1d4af0")
-	)
-	(wire
-		(pts
 			(xy 93.98 52.07) (xy 97.79 52.07)
 		)
 		(stroke
@@ -4937,46 +4686,6 @@
 			(type default)
 		)
 		(uuid "6e9f17b1-a9f6-4bb6-84a8-d30180396b55")
-	)
-	(wire
-		(pts
-			(xy 31.75 153.67) (xy 31.75 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79177acc-bfc7-4cbc-8f6a-5f440583eb38")
-	)
-	(wire
-		(pts
-			(xy 31.75 101.6) (xy 31.75 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d9a1491-a5ad-4ca4-b152-8893c8fb817a")
-	)
-	(wire
-		(pts
-			(xy 31.75 82.55) (xy 31.75 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fbc9a4b-8ac5-4900-ba54-a1d8690d6a07")
-	)
-	(wire
-		(pts
-			(xy 20.32 123.19) (xy 22.86 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81b25d92-2480-47f4-b854-48a0dbe2293a")
 	)
 	(wire
 		(pts
@@ -5000,16 +4709,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 134.62) (xy 31.75 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9046cb1d-c84e-4bac-ba99-4d4538cd1d3b")
-	)
-	(wire
-		(pts
 			(xy 207.01 49.53) (xy 207.01 58.42)
 		)
 		(stroke
@@ -5020,56 +4719,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 134.62) (xy 44.45 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93e88b68-36cc-49a6-a92e-cc9a3ea339b6")
-	)
-	(wire
-		(pts
-			(xy 41.91 125.73) (xy 57.15 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94068ec6-3d78-41cd-bff4-f08b229f8213")
-	)
-	(wire
-		(pts
-			(xy 41.91 177.8) (xy 72.39 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94e69e7c-3081-4b7b-afb5-c30a5cc32cb2")
-	)
-	(wire
-		(pts
-			(xy 22.86 87.63) (xy 20.32 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "953c057b-ec53-4c66-b4e3-94a3565113d2")
-	)
-	(wire
-		(pts
-			(xy 20.32 175.26) (xy 22.86 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a42f077f-d5f4-40d7-8e28-45a81c5406e5")
-	)
-	(wire
-		(pts
 			(xy 97.79 59.69) (xy 104.14 59.69)
 		)
 		(stroke
@@ -5077,66 +4726,6 @@
 			(type default)
 		)
 		(uuid "a58ed0bd-dbde-4d3e-badb-63429e18909b")
-	)
-	(wire
-		(pts
-			(xy 30.48 177.8) (xy 36.83 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a65a81de-b8fc-4e53-992c-db8f9ec404e3")
-	)
-	(wire
-		(pts
-			(xy 31.75 118.11) (xy 31.75 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a81b5df3-f648-40b3-a760-84f9cfa67e57")
-	)
-	(wire
-		(pts
-			(xy 30.48 109.22) (xy 36.83 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa9899da-1711-4fc3-820e-c649008f4281")
-	)
-	(wire
-		(pts
-			(xy 20.32 158.75) (xy 22.86 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac00ca97-5251-4373-9e57-8cc424d04e8c")
-	)
-	(wire
-		(pts
-			(xy 30.48 139.7) (xy 30.48 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac316638-f882-4caa-ad5c-a9f9cacf8d9b")
-	)
-	(wire
-		(pts
-			(xy 20.32 106.68) (xy 22.86 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aca248a8-c574-44b6-bd73-42a198759af7")
 	)
 	(wire
 		(pts
@@ -5160,16 +4749,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 147.32) (xy 80.01 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7891455-ee95-4733-b88c-e200516fd8aa")
-	)
-	(wire
-		(pts
 			(xy 229.87 49.53) (xy 229.87 58.42)
 		)
 		(stroke
@@ -5180,46 +4759,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 161.29) (xy 57.15 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b94e0181-3b45-4551-bd09-8f0dedb29eb7")
-	)
-	(wire
-		(pts
-			(xy 44.45 153.67) (xy 44.45 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9abe119-a982-4e55-8398-338bde154bde")
-	)
-	(wire
-		(pts
-			(xy 30.48 142.24) (xy 36.83 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c08027fa-ad29-4ec0-b4e5-6808c960789c")
-	)
-	(wire
-		(pts
-			(xy 44.45 82.55) (xy 44.45 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1143d9e-338a-43fc-911d-23dbea9426aa")
-	)
-	(wire
-		(pts
 			(xy 130.81 34.29) (xy 130.81 38.1)
 		)
 		(stroke
@@ -5227,16 +4766,6 @@
 			(type default)
 		)
 		(uuid "cb0876bc-2682-4db7-8ad4-d8519b67590d")
-	)
-	(wire
-		(pts
-			(xy 64.77 95.25) (xy 64.77 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d700862f-049f-4150-8b53-9afde61f6e36")
 	)
 	(wire
 		(pts
@@ -5260,16 +4789,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 182.88) (xy 80.01 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9a4957c-0cbb-4dae-8726-a38c9d39d1e2")
-	)
-	(wire
-		(pts
 			(xy 217.17 49.53) (xy 222.25 49.53)
 		)
 		(stroke
@@ -5277,26 +4796,6 @@
 			(type default)
 		)
 		(uuid "df653766-0516-4baa-b2b6-ddf57f660c24")
-	)
-	(wire
-		(pts
-			(xy 31.75 77.47) (xy 31.75 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e382d58d-b86a-4845-9861-c9a8bc02fcf0")
-	)
-	(wire
-		(pts
-			(xy 22.86 139.7) (xy 20.32 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4ac16ec-9adb-4932-944a-4d8fe557b530")
 	)
 	(wire
 		(pts
@@ -5310,26 +4809,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 161.29) (xy 36.83 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e752050d-bc81-4e70-8138-fb1681d0db20")
-	)
-	(wire
-		(pts
-			(xy 41.91 142.24) (xy 72.39 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec368c8d-99f2-4fef-becd-8ddf1d49d23e")
-	)
-	(wire
-		(pts
 			(xy 207.01 31.75) (xy 207.01 40.64)
 		)
 		(stroke
@@ -5337,6 +4816,16 @@
 			(type default)
 		)
 		(uuid "ee5da51d-a235-4f5e-a26a-af133c7cf541")
+	)
+	(wire
+		(pts
+			(xy 129.54 38.1) (xy 130.81 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc65151-78c2-4006-bcb2-ef7679ff8a5d")
 	)
 	(wire
 		(pts
@@ -5350,33 +4839,35 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 77.47) (xy 44.45 82.55)
+			(xy 138.43 34.29) (xy 138.43 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8c40b12-8e69-4c44-bb86-58dfa829675a")
+		(uuid "ff976281-8fe4-4f14-b102-d7a60859cc88")
 	)
-	(wire
-		(pts
-			(xy 44.45 101.6) (xy 44.45 118.11)
+	(global_label "PWM0"
+		(shape input)
+		(at 134.62 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(uuid "036fe324-cadd-42be-adeb-73fd82c74616")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.2525 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
 		)
-		(uuid "fc5eaa50-f3c2-4c63-a1f9-43d6c7e373db")
-	)
-	(wire
-		(pts
-			(xy 20.32 87.63) (xy 20.32 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd7c7e6e-c2b4-4261-84ca-a770e3f468f3")
 	)
 	(global_label "Tacho5"
 		(shape input)
@@ -5400,24 +4891,24 @@
 			)
 		)
 	)
-	(global_label "PWM1"
+	(global_label "PWM2"
 		(shape input)
-		(at 80.01 109.22 0)
+		(at 134.62 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "13be6c82-2623-4ed6-9fda-c88265569ebe")
+		(uuid "14b9addb-f7b1-4598-b5bc-e1814a145912")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.3775 109.22 0)
+			(at 126.2525 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5462,6 +4953,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM3"
+		(shape input)
+		(at 134.62 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25713a1f-511a-4c80-9f7b-3b289508ee41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.2525 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_Motor"
+		(shape input)
+		(at 138.43 38.1 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2bc48ec1-1980-46db-a505-04b19977bfe1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.43 48.4027 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5523,28 +5058,6 @@
 		(uuid "33847c50-0541-4b62-b824-85c679e4e324")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 164.0937 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWM5"
-		(shape input)
-		(at 80.01 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "33cfc5c0-1e3e-425f-86fd-7157bfc38d3b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.3775 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,6 +5133,28 @@
 			)
 		)
 	)
+	(global_label "Tacho4"
+		(shape input)
+		(at 153.67 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "441318e9-3bb4-4330-9106-4a5ed524a864")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.3679 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TMP1"
 		(shape input)
 		(at 219.71 40.64 90)
@@ -5666,22 +5201,22 @@
 	)
 	(global_label "Tacho0"
 		(shape input)
-		(at 30.48 90.17 180)
+		(at 153.67 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "5c8b4650-325d-4e0a-a6d1-24695ed077bb")
+		(uuid "653efecc-c068-40e0-8f03-43766bf61f05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.7821 90.17 0)
+			(at 163.3679 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5704,6 +5239,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM1"
+		(shape input)
+		(at 134.62 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b450d50-0c22-4c4e-85f8-3d2c8b1e704e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.2525 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5752,28 +5309,6 @@
 			)
 		)
 	)
-	(global_label "Tacho4"
-		(shape input)
-		(at 30.48 161.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8e523d84-25e7-4634-b3dd-ae0db496854d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.7821 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PWM5"
 		(shape input)
 		(at 156.21 125.73 0)
@@ -5798,51 +5333,7 @@
 	)
 	(global_label "PWM4"
 		(shape input)
-		(at 64.77 161.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aa0b031b-54f2-4591-aeca-68a638fe9030")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.1375 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWM0"
-		(shape input)
-		(at 64.77 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b21f5d44-3577-4a9d-afd3-ce48286bb936")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.1375 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Tacho3"
-		(shape input)
-		(at 30.48 142.24 180)
+		(at 134.62 180.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5850,9 +5341,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b3b9c922-84b0-4df2-bde7-57ec17dd3945")
+		(uuid "a64d8c26-6ad9-4c82-80eb-b7d179d8f0d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.7821 142.24 0)
+			(at 126.2525 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,6 +5366,28 @@
 		(uuid "b7d88d04-c060-40d9-8ac2-60d2fb1a3719")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 165.9079 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Tacho2"
+		(shape input)
+		(at 153.67 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb02925d-3c2b-4d63-a829-d092c3de5bba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.3679 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5928,28 +5441,6 @@
 			)
 		)
 	)
-	(global_label "Tacho1"
-		(shape input)
-		(at 30.48 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ceb3708b-505e-4a45-8187-fea64bd2c617")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.7821 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PWM3"
 		(shape input)
 		(at 156.21 115.57 0)
@@ -5972,9 +5463,9 @@
 			)
 		)
 	)
-	(global_label "Tacho2"
+	(global_label "V_Tacho"
 		(shape input)
-		(at 30.48 125.73 180)
+		(at 129.54 38.1 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5982,36 +5473,14 @@
 			)
 			(justify right)
 		)
-		(uuid "d049aca5-0ade-4b18-9338-00b959a25ae5")
+		(uuid "e0e74255-39bd-4e9e-8f2b-9bdbd41e8765")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.7821 125.73 0)
+			(at 129.54 48.6446 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWM3"
-		(shape input)
-		(at 80.01 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d37b4f45-5346-4f93-aac4-278acfa772cf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.3775 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6029,6 +5498,28 @@
 		(uuid "e326feac-37db-4027-ba98-004515686a74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 164.0937 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Tacho1"
+		(shape input)
+		(at 153.67 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5c0d3ee-b16c-44c5-a651-35d70a0b8cff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.3679 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6060,6 +5551,28 @@
 			)
 		)
 	)
+	(global_label "PWM5"
+		(shape input)
+		(at 134.62 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8bd8117-047c-470a-b9d8-7db59695ed96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.2525 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TMP1"
 		(shape input)
 		(at 156.21 143.51 0)
@@ -6082,9 +5595,9 @@
 			)
 		)
 	)
-	(global_label "PWM2"
+	(global_label "Tacho5"
 		(shape input)
-		(at 64.77 125.73 0)
+		(at 153.67 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6092,9 +5605,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ebaac36c-8daf-42ea-8295-5472bcb2b7f1")
+		(uuid "eb3c08a8-7c85-44e5-8b05-996b442b48eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.1375 125.73 0)
+			(at 163.3679 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6126,24 +5639,24 @@
 			)
 		)
 	)
-	(global_label "Tacho5"
+	(global_label "Tacho3"
 		(shape input)
-		(at 30.48 177.8 180)
+		(at 153.67 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "fb87740f-25e8-4311-8477-f652ec11f23f")
+		(uuid "f57144a0-ad17-44ce-add0-8b243d52f675")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.7821 177.8 0)
+			(at 163.3679 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6167,92 +5680,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 26.67 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0038ac88-7ab7-4a54-8908-83bdfa6f7a2c")
-		(property "Reference" "R11"
-			(at 26.67 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 26.67 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 26.67 124.968 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 26.67 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C17414"
-			(at 26.67 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 26.67 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13830d51-3b14-41b5-9e32-bbca7a472e04")
-		)
-		(pin "2"
-			(uuid "6c04effc-fa00-454b-8840-97709350659c")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "R11")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -6348,7 +5775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05602c60-e018-477d-acc6-d52c64eec18f")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR014"
 			(at 185.42 77.47 0)
 			(effects
 				(font
@@ -6399,7 +5826,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR06")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6501,7 +5928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b3d52a5-6985-4746-a5cd-7373981f7cd2")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 86.36 46.4652 0)
 			(effects
 				(font
@@ -6574,99 +6001,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Fan_Tacho_PWM")
-		(at 39.37 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f85a435-2eac-4406-8dd5-b8da120e7247")
-		(property "Reference" "M3"
-			(at 39.37 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FAN0"
-			(at 39.37 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
-			(at 39.116 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
-			(at 39.116 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
-			(at 39.37 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C402778"
-			(at 39.37 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "90"
-			(at 39.37 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "cdb9140f-d4cd-419d-8865-52221c0d3833")
-		)
-		(pin "1"
-			(uuid "7e43d905-c0f7-4916-bef5-630b83d9f562")
-		)
-		(pin "3"
-			(uuid "6159805c-ec2c-4921-af26-b9499ada1e36")
-		)
-		(pin "2"
-			(uuid "193b552d-e90b-4de8-ab59-9c2d50ddad97")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "M3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6682,7 +6017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "101fa90e-a42f-42d9-b9dd-d7a493faf72c")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR08"
 			(at 133.35 40.64 0)
 			(effects
 				(font
@@ -6732,348 +6067,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3401A")
-		(at 74.93 182.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13f00463-4e15-4f1f-952d-13c5c62ee7ea")
-		(property "Reference" "Q10"
-			(at 68.58 184.1501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 68.58 181.6101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 69.85 180.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 69.85 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 74.93 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C15127"
-			(at 74.93 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 74.93 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "28c8f541-77e0-428d-a2b2-920f9ac67fad")
-		)
-		(pin "2"
-			(uuid "e9410556-ce0d-4a83-834d-17deef98ca2f")
-		)
-		(pin "1"
-			(uuid "33b5f420-8bef-4748-9f29-2d0e0a5578d7")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 57.15 115.57 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18109408-63d8-446c-8bb3-7d6ceacc1fb7")
-		(property "Reference" "#PWR022"
-			(at 50.8 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 115.5701 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f81ba53-2dc6-48f6-bdb1-65be08be18ae")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 26.67 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "185ff682-ffd1-4153-850c-5f9e0d89d5cf")
-		(property "Reference" "R10"
-			(at 26.67 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 26.67 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 26.67 108.458 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 26.67 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C17414"
-			(at 26.67 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 26.67 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7efb1c89-5ddb-42ed-9685-199c591e9542")
-		)
-		(pin "2"
-			(uuid "89d871b7-5d3d-49e8-8312-a948cbf086a1")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 74.93 104.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18c9690a-0230-4506-a9ea-406c36b8d531")
-		(property "Reference" "Q3"
-			(at 68.58 105.4101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 68.58 102.8701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 69.85 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 69.85 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 74.93 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C20917"
-			(at 74.93 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 74.93 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61d5a4a6-c2d9-4f01-9179-66efe218e902")
-		)
-		(pin "2"
-			(uuid "4dbcf1a1-da56-48cc-8021-ad268f2e0a7c")
-		)
-		(pin "3"
-			(uuid "10fd92fc-69a4-4c6b-95a0-f035e1bf2ea2")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "Q3")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7172,17 +6166,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 72.39 167.64 270)
+		(lib_id "PCM_Espressif:ESP32")
+		(at 62.23 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1a5fe047-4105-436c-89f3-b2e07d7f5997")
-		(property "Reference" "#PWR030"
-			(at 66.04 167.64 0)
+		(uuid "220812ec-54a0-4f51-bee9-cc59a07f1d3c")
+		(property "Reference" "U3"
+			(at 64.4241 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESP32"
+			(at 64.4241 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DJCustom:QFN-48-1EP_6x6mm_P0.4mm_EP4.3x4.3mm"
+			(at 62.23 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7190,17 +6202,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 68.58 167.6401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 167.64 0)
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf"
+			(at 62.23 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7208,8 +6211,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 72.39 167.64 0)
+		(property "Description" "ESP32 is a single 2.4 GHz Wi-Fi-and-Bluetooth combo chip designed with the TSMC ultra-low-power 40 nmtechnology."
+			(at 62.23 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,22 +6220,157 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "22"
+			(uuid "d8da7b52-9b38-45eb-9119-fa2d8927a3d5")
+		)
+		(pin "4"
+			(uuid "104b9c3c-94e0-4f63-a4d9-42ded6592416")
+		)
+		(pin "5"
+			(uuid "4c4266e2-45b1-40dd-9d01-521129b409ad")
+		)
+		(pin "23"
+			(uuid "254c8411-18d8-4731-aa4d-5489f12fc225")
+		)
+		(pin "37"
+			(uuid "71b53463-a184-4bdc-b990-c4f8618887a8")
+		)
+		(pin "45"
+			(uuid "020306b3-5ad6-4479-9a26-7ce1ca3e46f6")
+		)
+		(pin "32"
+			(uuid "8df635f0-d99f-4f90-8a2c-2bd66ad39f3d")
+		)
+		(pin "20"
+			(uuid "0e9098db-a0ba-4aa0-abe8-9fafe0162f4c")
+		)
+		(pin "46"
+			(uuid "2b4313ea-fc0b-4fb9-8910-25b930e46fe8")
+		)
+		(pin "6"
+			(uuid "bf1ea7c0-2b7d-4664-b85b-25089bfbe37e")
+		)
+		(pin "33"
+			(uuid "a993343e-f62d-47de-9546-48a1f9aa157e")
+		)
+		(pin "39"
+			(uuid "1274bf4a-e16e-4f0a-86da-d1f3e8f78314")
+		)
+		(pin "34"
+			(uuid "1655a484-3407-4af6-be7f-c5bab2937860")
+		)
+		(pin "35"
+			(uuid "014f4469-7b07-4a60-b150-62cc5a572b8c")
+		)
+		(pin "30"
+			(uuid "c15e4f43-4792-4b3c-a146-90e45c7e7300")
+		)
+		(pin "8"
+			(uuid "b3b974bb-27e9-49d2-adfb-d1e034bd3fe8")
+		)
+		(pin "49"
+			(uuid "d5c647d1-a2fa-47f7-b8c7-e77d1fb7616a")
+		)
+		(pin "36"
+			(uuid "9e1266a4-c84e-444c-bf66-e8801f0a7ce3")
+		)
+		(pin "44"
+			(uuid "449669cc-2aad-4b8b-b882-434326f19b47")
+		)
+		(pin "7"
+			(uuid "d81e5633-f494-4a63-af8f-af13caa692dc")
+		)
+		(pin "31"
+			(uuid "9b56b5da-d2e6-43a4-b247-953dcb6921eb")
+		)
+		(pin "42"
+			(uuid "66870d4f-6de7-411d-95d5-087e14ac4ff5")
+		)
+		(pin "12"
+			(uuid "76b6b362-700b-41bc-b581-406269a4f92d")
+		)
+		(pin "14"
+			(uuid "b051f3e6-14bf-4aba-9e64-46f061b2e0f0")
+		)
+		(pin "19"
+			(uuid "08a4f36f-2703-4c1a-97ec-2f6f01446d72")
+		)
+		(pin "25"
+			(uuid "b29f0933-218e-428c-8677-84b93d9aaeaa")
+		)
+		(pin "27"
+			(uuid "0a28cf05-fad6-4d49-befd-c475439be968")
+		)
+		(pin "26"
+			(uuid "d1fab04c-4016-4e4b-bf94-092f2ca19621")
+		)
+		(pin "28"
+			(uuid "fc2763ca-9f2b-4cb3-8670-139e9e0a2fa4")
+		)
+		(pin "24"
+			(uuid "212801f1-590c-4312-ab3f-bdf80fee0136")
+		)
+		(pin "3"
+			(uuid "e2879a4e-6f23-4b5c-be00-174f84ea9522")
+		)
+		(pin "48"
+			(uuid "37fa6334-4d51-4155-9a05-219c6676ce45")
+		)
+		(pin "9"
+			(uuid "9b57af22-94de-4689-89b3-202143a09749")
+		)
+		(pin "47"
+			(uuid "44f4c519-0666-4b03-9bc9-d05e59d0cc47")
+		)
+		(pin "13"
+			(uuid "8b7ffeaf-2c9f-4900-851f-93ad1cf92173")
+		)
+		(pin "17"
+			(uuid "4f14f879-5436-41d7-8c98-acb9c88634e3")
+		)
+		(pin "38"
+			(uuid "7ef99c7c-e1c6-48bd-9753-b8b5a00316cd")
+		)
+		(pin "40"
+			(uuid "ead7e334-46e8-4080-b4e2-9ec0910075a5")
+		)
+		(pin "29"
+			(uuid "e2bedfee-a6db-41f9-8f8c-e3e4ec620b41")
+		)
+		(pin "43"
+			(uuid "d18c2a7f-f81a-42de-be62-8e2fe5e33398")
+		)
+		(pin "18"
+			(uuid "2c21151a-65e4-496c-ba5d-4c0d14be220e")
+		)
+		(pin "41"
+			(uuid "9f9ca9b0-8135-409f-9d1b-37232c5c147c")
+		)
+		(pin "2"
+			(uuid "0500fd75-15ee-4d30-8521-da4eaad0c11b")
+		)
+		(pin "21"
+			(uuid "331b01a1-3209-473f-ae61-69aa48d90baf")
+		)
+		(pin "10"
+			(uuid "bafdf255-4518-40f9-840f-97309ac9ec26")
+		)
+		(pin "15"
+			(uuid "2d93d1b5-1d57-4acc-b93d-3dd8c39de374")
+		)
+		(pin "16"
+			(uuid "cb1c9ac7-7dcb-4c03-b948-62f11d730e1a")
+		)
+		(pin "11"
+			(uuid "d3543179-a9a5-4b0d-a563-724ffbc5f92e")
 		)
 		(pin "1"
-			(uuid "4fd895ea-ec66-4063-abf8-dd675cebb7ca")
+			(uuid "4e569222-6a2b-4aaf-932b-9a68e1c51f7d")
 		)
 		(instances
-			(project "fancontroller"
+			(project ""
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR030")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7247,7 +6385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a2c4582-0b17-4e72-9e2a-4305e5bb655c")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR012"
 			(at 149.86 38.1 0)
 			(effects
 				(font
@@ -7298,7 +6436,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR027")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7391,192 +6529,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor:Fan_Tacho_PWM")
-		(at 39.37 153.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36ab1472-e0be-4f1f-9557-5058b7c95bb5")
-		(property "Reference" "M5"
-			(at 39.37 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FAN0"
-			(at 39.37 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
-			(at 39.116 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
-			(at 39.116 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
-			(at 39.37 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C402778"
-			(at 39.37 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "90"
-			(at 39.37 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "75f9db4f-1ccb-46f2-933d-a7ef508f69f4")
-		)
-		(pin "1"
-			(uuid "3aad77c0-26b4-44ec-a083-70d6a7dd2d1b")
-		)
-		(pin "3"
-			(uuid "42957e24-4956-4b57-9f05-3f43d08afe53")
-		)
-		(pin "2"
-			(uuid "3e60a142-b433-445b-8446-d9351ff5c958")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "M5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 59.69 120.65 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "380e3874-fe0b-4e8e-bd12-d81ca680f022")
-		(property "Reference" "Q5"
-			(at 53.34 121.9201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 53.34 119.3801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 54.61 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 54.61 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 59.69 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C20917"
-			(at 59.69 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 59.69 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aba13403-2b3f-442d-90f5-4ba214857d27")
-		)
-		(pin "2"
-			(uuid "21fbfe88-4a17-4c92-9a05-135986d0ec7b")
-		)
-		(pin "3"
-			(uuid "482ce4fd-cd86-4e37-9483-32d42fb29477")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 194.31 77.47 90)
 		(unit 1)
@@ -7586,7 +6538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d3423d6-ecc9-4896-b163-c51da01031c0")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR015"
 			(at 200.66 77.47 0)
 			(effects
 				(font
@@ -7637,7 +6589,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR05")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7652,7 +6604,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "428cb7c6-d4b7-40f2-becf-2096a4eb8ecd")
-		(property "Reference" "C8"
+		(property "Reference" "C2"
 			(at 92.71 54.61 0)
 			(effects
 				(font
@@ -7724,7 +6676,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "C8")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7826,7 +6778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e8f9aa0-1f9c-4064-9482-7b876fb79d05")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR011"
 			(at 140.97 162.56 0)
 			(effects
 				(font
@@ -7876,193 +6828,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Fan_Tacho_PWM")
-		(at 39.37 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e9618d7-d820-4cba-92b0-5bcae2b6843b")
-		(property "Reference" "M2"
-			(at 39.37 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FAN0"
-			(at 39.37 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
-			(at 39.116 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
-			(at 39.116 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
-			(at 39.37 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C402778"
-			(at 39.37 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "90"
-			(at 39.37 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "10b3ccdb-03b6-4577-bb29-37156a844894")
-		)
-		(pin "1"
-			(uuid "0fbe6bf5-07df-4a11-9661-daf62d82eb7b")
-		)
-		(pin "3"
-			(uuid "ba0750af-633a-4d7e-9823-c0505be646c9")
-		)
-		(pin "2"
-			(uuid "473ab808-ede3-405a-9b63-4bfb88c6cb10")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "M2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 59.69 156.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f3815b2-d072-46ea-a20d-32a4c2074876")
-		(property "Reference" "Q11"
-			(at 53.34 157.4801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 53.34 154.9401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 54.61 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 54.61 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 59.69 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C20917"
-			(at 59.69 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 59.69 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78052480-5424-463f-bd4e-bb00a880b49a")
-		)
-		(pin "2"
-			(uuid "e21c043c-19eb-4e41-8544-a4a864807844")
-		)
-		(pin "3"
-			(uuid "b6b2da73-03e4-477b-88b2-4366b1c433d6")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "Q11")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8078,7 +6844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "523ea25d-0cc6-406d-b4a2-41d04d8ff272")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 95.25 87.63 0)
 			(effects
 				(font
@@ -8129,74 +6895,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 130.81 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "587aa05d-7341-413a-bb93-f4886256cfa6")
-		(property "Reference" "#PWR018"
-			(at 134.62 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V_Tacho"
-			(at 127 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 130.81 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c75254a-e0a7-40e5-afec-057448e2675c")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR018")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8375,405 +7074,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 26.67 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b4322c3-79f1-4d9b-bded-131ed2f1e760")
-		(property "Reference" "R8"
-			(at 26.67 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 26.67 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 26.67 177.038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 26.67 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C17414"
-			(at 26.67 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 26.67 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2d6eafb-983b-4090-a74d-fe98a6fd4daa")
-		)
-		(pin "2"
-			(uuid "cda75c87-d2bc-469f-9578-d115601e984c")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3401A")
-		(at 59.69 95.25 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e5c1662-c2c0-469c-adb0-d7b820168fca")
-		(property "Reference" "Q2"
-			(at 53.34 96.5201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 53.34 93.9801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 54.61 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 54.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 59.69 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C15127"
-			(at 59.69 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 59.69 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ff31052a-4056-4e41-b853-0f8947c934d2")
-		)
-		(pin "2"
-			(uuid "40a52f70-a20c-4ff5-bc9a-45d7146a32ec")
-		)
-		(pin "1"
-			(uuid "7cff08e3-9174-4fd6-9c25-6171cea4281a")
-		)
-		(instances
-			(project ""
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 31.75 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60e99943-5c4d-4743-a3c8-02ba109c9f5d")
-		(property "Reference" "#PWR07"
-			(at 31.75 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 31.75 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 31.75 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "182974d3-8c12-4df4-9e2b-5d49bafa130c")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 26.67 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68573d3e-80f8-4648-a637-393f5a747c0e")
-		(property "Reference" "R6"
-			(at 26.67 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 26.67 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 26.67 141.478 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 26.67 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C17414"
-			(at 26.67 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 26.67 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9e30492-8b78-4865-8503-2c182697e7f7")
-		)
-		(pin "2"
-			(uuid "ad77d3bb-624b-423c-ae61-a90a86564cec")
-		)
-		(instances
-			(project ""
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 72.39 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69adba7d-71bf-4908-82d6-4325871088d4")
-		(property "Reference" "#PWR021"
-			(at 76.2 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 68.58 119.3801 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 72.39 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48c76f4b-5aca-4e3c-8f84-a319f938f7eb")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 138.43 34.29 270)
 		(unit 1)
@@ -8783,7 +7083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b6a8838-0eff-40a4-91eb-cf8e1f82093e")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 134.62 34.29 0)
 			(effects
 				(font
@@ -8834,7 +7134,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8850,7 +7150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d69f8ef-83ed-4b0c-a4df-94e1cb928be3")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR010"
 			(at 140.97 86.36 0)
 			(effects
 				(font
@@ -8900,141 +7200,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 57.15 80.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f22618a-1152-4662-b40e-2b2d1ef15878")
-		(property "Reference" "#PWR012"
-			(at 50.8 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 80.0101 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0415a15d-d56c-4bd0-bb3a-4b715d87b4fe")
-		)
-		(instances
-			(project ""
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 72.39 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71d9fb54-ca7b-4bd9-9733-9a67d71c5f26")
-		(property "Reference" "#PWR026"
-			(at 66.04 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 68.58 132.0801 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb616009-4ef4-4f6e-94d5-b8aca9798652")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR026")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9050,7 +7216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "786b2f3a-cd4a-470f-90d6-be8187843371")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR06"
 			(at 121.92 137.16 0)
 			(effects
 				(font
@@ -9101,7 +7267,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR015")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9117,7 +7283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b511f88-b527-4e08-91d6-298df0398171")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR01"
 			(at 76.2 55.88 0)
 			(effects
 				(font
@@ -9167,7 +7333,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR016")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -9260,72 +7426,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 20.32 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "848eb289-5f18-4af8-9d23-df4db6e53ef8")
-		(property "Reference" "#PWR020"
-			(at 20.32 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V_Tacho"
-			(at 20.32 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 20.32 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5db51ae3-0508-40c2-84f6-989dc00159bf")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Graphic:SYM_Radioactive_Large")
 		(at 135.89 106.68 0)
 		(unit 1)
@@ -9390,693 +7490,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 26.67 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8dfa804c-1e19-4159-b1ae-345f58913b1a")
-		(property "Reference" "R9"
-			(at 26.67 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 26.67 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 26.67 89.408 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 26.67 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C17414"
-			(at 26.67 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 26.67 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3397b78b-8f39-48a4-a837-f3bfc5e6d8b1")
-		)
-		(pin "2"
-			(uuid "86cb9bf7-bd9b-44b5-9519-f47bb9cdd02e")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 74.93 172.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ec8d02d-97f8-4a84-bf54-14f1d1394ad5")
-		(property "Reference" "Q9"
-			(at 68.58 173.9901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 68.58 171.4501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 69.85 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 69.85 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 74.93 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C20917"
-			(at 74.93 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 74.93 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee8228dc-fd4b-4a18-8b98-da0c8e3c7e53")
-		)
-		(pin "2"
-			(uuid "74b49932-91b4-4042-beb2-2e3416fe953a")
-		)
-		(pin "3"
-			(uuid "24723143-7e62-4149-9d99-4d7a6484a67d")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 74.93 137.16 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9737fe39-668f-441a-9400-fc4bf8e51283")
-		(property "Reference" "Q7"
-			(at 68.58 138.4301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 68.58 135.8901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 69.85 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 69.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 74.93 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C20917"
-			(at 74.93 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 74.93 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "962e9ef9-297e-45e7-8fdd-509a20513ef2")
-		)
-		(pin "2"
-			(uuid "1ed7e782-5ffe-4d3a-b6af-7236df37d47d")
-		)
-		(pin "3"
-			(uuid "6975b6e1-aa49-41c8-8a94-7cbcddd25a17")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 44.45 77.47 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "990bd551-51ef-456c-8652-e6dcf07ea0d6")
-		(property "Reference" "#PWR08"
-			(at 44.45 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8299e603-73bc-47b6-8085-a6e075ad4c52")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Fan_Tacho_PWM")
-		(at 39.37 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9af2110f-3c09-45bc-93ba-e16afdb12ade")
-		(property "Reference" "M6"
-			(at 39.37 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FAN0"
-			(at 39.37 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
-			(at 39.116 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
-			(at 39.116 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
-			(at 39.37 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C402778"
-			(at 39.37 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "90"
-			(at 39.37 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "b97d329f-470f-4169-903c-e014a385a53b")
-		)
-		(pin "1"
-			(uuid "9051f3da-4022-4bf3-a1c5-00f085d963cf")
-		)
-		(pin "3"
-			(uuid "65c1c3ca-0133-4d78-8bb9-7ffced4c8da6")
-		)
-		(pin "2"
-			(uuid "649c45b4-633c-4dc9-822d-eccd52fc96fb")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "M6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 57.15 135.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b63f124-aedc-4041-98eb-cce8a7f9438e")
-		(property "Reference" "#PWR025"
-			(at 60.96 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 53.34 135.8901 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 57.15 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80522502-2712-47eb-968b-f36aaa15cad4")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3401A")
-		(at 74.93 147.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bdadedf-61c0-414a-aec3-1f67b19729c5")
-		(property "Reference" "Q8"
-			(at 68.58 148.5901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 68.58 146.0501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 69.85 145.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 69.85 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 74.93 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C15127"
-			(at 74.93 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 74.93 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "dfe89187-bee0-4a79-8502-6bd591805ce8")
-		)
-		(pin "2"
-			(uuid "aa5a7d36-729f-42d5-a021-a1b89f1a1ac4")
-		)
-		(pin "1"
-			(uuid "06a5fa60-ec5c-47f9-80a8-da80e5c15ab7")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3401A")
-		(at 59.69 166.37 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c4374a3-b348-4904-8992-f8f558128339")
-		(property "Reference" "Q12"
-			(at 53.34 167.6401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 53.34 165.1001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 54.61 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 54.61 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 59.69 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C15127"
-			(at 59.69 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 59.69 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c04c0db3-9882-4924-a9cb-7aaf6e6ab6de")
-		)
-		(pin "2"
-			(uuid "7bdcff33-859f-47c0-aa3a-e11bc3a22c54")
-		)
-		(pin "1"
-			(uuid "7c45d54e-cbce-4979-83e0-92dda0e47ff1")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "Q12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 76.2 55.88 0)
 		(unit 1)
@@ -10085,7 +7498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cf63b16-0a5b-4d18-969b-c7f5f89fd4c5")
-		(property "Reference" "C6"
+		(property "Reference" "C1"
 			(at 71.12 55.88 0)
 			(effects
 				(font
@@ -10157,99 +7570,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Fan_Tacho_PWM")
-		(at 39.37 134.62 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d9208e1-a895-4398-8e47-17057bdcb07d")
-		(property "Reference" "M4"
-			(at 39.37 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FAN0"
-			(at 39.37 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
-			(at 39.116 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
-			(at 39.116 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
-			(at 39.37 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C402778"
-			(at 39.37 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "90"
-			(at 39.37 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "dfe4a91c-1485-45cd-b77b-129e46fa51c1")
-		)
-		(pin "1"
-			(uuid "33b37d77-1d55-40a2-9aad-7f120a26bed0")
-		)
-		(pin "3"
-			(uuid "1cdf4cce-7c5e-4476-bbd0-57e0d5e9157a")
-		)
-		(pin "2"
-			(uuid "54ee2b77-c789-46f3-9904-357c44a790ce")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "M4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -10351,7 +7672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a020ba75-a7b1-41f3-8f79-d4d8312ae890")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR013"
 			(at 160.02 38.1 0)
 			(effects
 				(font
@@ -10402,74 +7723,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 57.15 151.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5eab008-3a24-4527-892c-e986abd0ca68")
-		(property "Reference" "#PWR032"
-			(at 50.8 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 151.1301 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d1612a4-44c2-4390-bd5c-0e1a08b85c2c")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR032")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10485,7 +7739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac6d6d9b-03d8-4a29-b9b5-fa2f23798d02")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 200.66 31.75 0)
 			(effects
 				(font
@@ -10536,7 +7790,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10552,7 +7806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af5448be-68f4-4367-a75f-a41d44157d5a")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 116.84 83.82 0)
 			(effects
 				(font
@@ -10602,7 +7856,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10690,159 +7944,6 @@
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 72.39 99.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1d99721-178a-436a-8a4f-b7f1df3039d8")
-		(property "Reference" "#PWR017"
-			(at 66.04 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 68.58 99.0601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14ac8b05-2a85-4ffe-b7d1-21fa8b055a43")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 26.67 158.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b72cbfea-18b0-45dc-b4a7-b305acaa7010")
-		(property "Reference" "R7"
-			(at 26.67 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 26.67 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 26.67 160.528 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 26.67 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C17414"
-			(at 26.67 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 26.67 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e73c17c-2ab9-4166-a263-465a5c5d5ee4")
-		)
-		(pin "2"
-			(uuid "67941d43-4d1a-4633-8d28-9b1dc88d57db")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11110,73 +8211,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 72.39 187.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c27acaa9-4eba-493e-b6e7-fbdf5d5bee1f")
-		(property "Reference" "#PWR031"
-			(at 76.2 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 68.58 187.9601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 72.39 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db875af7-2733-4e82-abe0-5b4008e45bc9")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Custom:ESP32-WROOM-32")
 		(at 140.97 118.11 0)
 		(unit 1)
@@ -11382,167 +8416,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3401A")
-		(at 59.69 130.81 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d300d820-21f5-4f54-aa1c-5e6bc214a2f2")
-		(property "Reference" "Q6"
-			(at 53.34 132.0801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 53.34 129.5401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 54.61 128.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 54.61 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 59.69 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C15127"
-			(at 59.69 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 59.69 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c7ca9136-b3fd-4e9b-a769-c561d1f453d9")
-		)
-		(pin "2"
-			(uuid "f3df94ef-cd40-4ffc-b7cd-eaa42fcb4640")
-		)
-		(pin "1"
-			(uuid "057987b9-d5bc-4b47-8d71-aaf55f50b9fd")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 57.15 171.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9cea16d-3931-40f3-ab23-6a699e03c684")
-		(property "Reference" "#PWR033"
-			(at 60.96 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 53.34 171.4501 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 57.15 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29a7e85a-b978-4658-bc6a-f55cbd90340e")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 86.36 59.69 0)
 		(unit 1)
@@ -11552,7 +8425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da808ba6-ae1a-4cb2-b99c-760eee203217")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR02"
 			(at 86.36 66.04 0)
 			(effects
 				(font
@@ -11602,7 +8475,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR019")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -11618,7 +8491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd26dc69-8cdf-498d-9dd5-abe05f109606")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR017"
 			(at 226.06 31.75 0)
 			(effects
 				(font
@@ -11669,7 +8542,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11685,7 +8558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df3a200d-be08-43b5-a59a-5e466cc08a17")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR04"
 			(at 104.14 55.88 0)
 			(effects
 				(font
@@ -11735,101 +8608,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3401A")
-		(at 74.93 114.3 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2234ffa-cd12-414b-8c57-b4faf53d3b27")
-		(property "Reference" "Q4"
-			(at 68.58 115.5701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 68.58 113.0301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 69.85 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 69.85 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 74.93 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C15127"
-			(at 74.93 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 74.93 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7629f291-7dc3-4d01-812a-798c2fa4d23a")
-		)
-		(pin "2"
-			(uuid "13e7f63e-0a83-4885-924b-af755be5ca64")
-		)
-		(pin "1"
-			(uuid "f382adf9-5664-4df7-96f5-f0078ef80caf")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "Q4")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -11844,7 +8623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8cec8a9-5f0a-4968-bc8c-a27042a572f3")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR07"
 			(at 134.62 34.29 0)
 			(effects
 				(font
@@ -11895,166 +8674,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 72.39 152.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea27341d-5ada-4005-bb49-dddfd750ff69")
-		(property "Reference" "#PWR028"
-			(at 76.2 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 68.58 152.4001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 72.39 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f72a29a4-6e5d-4d24-884e-433e384f3ce1")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Fan_Tacho_PWM")
-		(at 39.37 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea31f365-6a34-43d7-986a-11c587e7a58d")
-		(property "Reference" "M1"
-			(at 39.37 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FAN0"
-			(at 39.37 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
-			(at 39.116 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
-			(at 39.116 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
-			(at 39.37 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C402778"
-			(at 39.37 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "90"
-			(at 39.37 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "69c36507-707e-4cb5-b891-197af679795a")
-		)
-		(pin "1"
-			(uuid "8f4567b7-06bb-4c37-9b0b-1603fe1de56d")
-		)
-		(pin "3"
-			(uuid "555aafd8-27cf-49f7-a50b-d9a761e7ff95")
-		)
-		(pin "2"
-			(uuid "4436f6c6-2f9c-498a-87a4-5a70e924e7f5")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "M1")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -12153,167 +8773,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 57.15 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4154196-f8fd-42df-b3cf-f75b456ba0fa")
-		(property "Reference" "#PWR011"
-			(at 60.96 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 53.34 100.3301 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 57.15 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f29ca63-7881-428d-a968-84a7d54d3b50")
-		)
-		(instances
-			(project ""
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 59.69 85.09 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f63376c2-b134-4c71-9bba-db1a74bfe8a7")
-		(property "Reference" "Q1"
-			(at 53.34 86.3601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 53.34 83.8201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 54.61 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 54.61 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 59.69 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C20917"
-			(at 59.69 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 59.69 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81cadaca-36e3-436b-ac8e-dc481052b417")
-		)
-		(pin "2"
-			(uuid "51cddc8c-01cf-4695-9062-407339edda77")
-		)
-		(pin "3"
-			(uuid "3f11b18f-d7cc-4d56-b427-fc74c08c5a32")
-		)
-		(instances
-			(project ""
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 104.14 55.88 0)
 		(unit 1)
@@ -12322,7 +8781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa3b343d-15dd-49b3-bb59-387256ad93d3")
-		(property "Reference" "C9"
+		(property "Reference" "C3"
 			(at 107.061 55.0453 0)
 			(effects
 				(font
@@ -12394,8 +8853,166 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "C9")
+					(reference "C3")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 167.64)
+		(size 19.05 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be409fd2-1b28-4433-8b83-8b7258382816")
+		(property "Sheetname" "Motor_Connections"
+			(at 134.62 166.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_conn.kicad_sch"
+			(at 134.62 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWM1" input
+			(at 134.62 172.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f83adcb3-a841-414e-861e-6e1e5d0d2ab9")
+		)
+		(pin "PWM0" input
+			(at 134.62 170.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39e0f2e8-f515-4b8a-8665-b880ca881d24")
+		)
+		(pin "Tacho1" input
+			(at 153.67 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "78d620e4-597b-4385-a882-0c79e1d09549")
+		)
+		(pin "Tacho0" input
+			(at 153.67 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f3d80846-b99f-43f0-9c26-627c16c69dd7")
+		)
+		(pin "PWM5" input
+			(at 134.62 182.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "baf87a48-e0f4-478e-a22d-e6e15f64674b")
+		)
+		(pin "PWM4" input
+			(at 134.62 180.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3615cffd-33cf-452c-bea8-ff30907787de")
+		)
+		(pin "PWM3" input
+			(at 134.62 177.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f35866a2-424b-4ab3-aa5b-25d67bd8ff22")
+		)
+		(pin "Tacho5" input
+			(at 153.67 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4b20b8bf-e24c-4c70-9974-7e70a8670987")
+		)
+		(pin "Tacho4" input
+			(at 153.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "503e9a78-d243-4eb0-a7c4-92f8f812a762")
+		)
+		(pin "Tacho2" input
+			(at 153.67 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0c9a9480-bb6e-4d6c-89fe-768629a7072f")
+		)
+		(pin "PWM2" input
+			(at 134.62 175.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "08df66dc-59b7-47b5-92c5-d388eefdfe3f")
+		)
+		(pin "Tacho3" input
+			(at 153.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2697dd26-66e9-455e-87dc-fa27c65127c0")
+		)
+		(instances
+			(project "fancontroller"
+				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
+					(page "2")
 				)
 			)
 		)
