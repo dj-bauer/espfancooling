@@ -1,0 +1,26 @@
+### Footprint positions - created on 2024-06-05T13:33:16+0200 ###
+### Printed by KiCad version 8.0.3
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val             Package                                  PosX       PosY       Rot  Side
+C6        10uF            CP_Radial_D4.0mm_P1.50mm             142.5000   -90.5000   90.0000  top
+C8        100uF           CP_Radial_D5.0mm_P2.00mm             147.5000  -108.0000    0.0000  top
+C9        0.1uF           C_Disc_D3.0mm_W2.0mm_P2.50mm         119.7500   -69.5000  180.0000  top
+J1        Power           PinHeader_1x04_P2.54mm_Horizontal    147.6000   -90.6800    0.0000  top
+J2        Serial_Conn     PinHeader_1x04_P2.54mm_Horizontal    147.6250   -70.2000    0.0000  top
+JP1       BOOT            PinHeader_1x03_P2.54mm_Vertical      145.4600   -83.5000   90.0000  top
+M1        FAN0            FanPinHeader_1x04_P2.54mm_Vertical   103.8800   -75.7500    0.0000  top
+M2        FAN0            FanPinHeader_1x04_P2.54mm_Vertical   103.8800   -83.8000    0.0000  top
+M3        FAN0            FanPinHeader_1x04_P2.54mm_Vertical   103.8800   -91.8500    0.0000  top
+M4        FAN0            FanPinHeader_1x04_P2.54mm_Vertical   103.8800   -99.9000    0.0000  top
+M5        FAN0            FanPinHeader_1x04_P2.54mm_Vertical   103.8800  -107.9500    0.0000  top
+M6        FAN0            FanPinHeader_1x04_P2.54mm_Vertical   103.8800  -116.0000    0.0000  top
+R1        1k              R_0805_2012Metric                    118.5000   -73.0000  -90.0000  top
+SW1       SW_Push         PinHeader_1x02_P2.54mm_Vertical      111.2250   -69.5000   90.0000  top
+TH1       Thermistor      PinHeader_1x02_P2.54mm_Vertical      123.5500  -114.4600    0.0000  top
+TH2       Thermistor      PinHeader_1x02_P2.54mm_Vertical      128.2000  -114.4600    0.0000  top
+TH3       Thermistor      PinHeader_1x02_P2.54mm_Vertical      132.8500  -114.4600    0.0000  top
+TH4       Thermistor      PinHeader_1x02_P2.54mm_Vertical      137.5000  -114.4600    0.0000  top
+U2        ESP32-WROOM-32  ESP32-WROOM-32                       131.3000   -77.3200    0.0000  top
+U3        AMS1117-3.3     SOT-223-3_TabPin2                    135.5000   -94.7000  180.0000  top
+## End

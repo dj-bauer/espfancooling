@@ -630,6 +630,22 @@
     [
       "0224fd83-71fd-467a-bea0-55e2843206f4",
       "Root"
+    ],
+    [
+      "fc7019e2-bed1-4c56-a850-19e995e64cb0",
+      "USB-C Port"
+    ],
+    [
+      "e7a7a44d-b084-43b7-8d62-9bab4cd6f198",
+      "Status LEDs"
+    ],
+    [
+      "ffacd155-ee3e-4a02-81a2-8ac0f48c58f4",
+      "PWM driver"
+    ],
+    [
+      "a9612688-8b33-4507-a26d-2abbbfdabb93",
+      "Power Delivery"
     ]
   ],
   "text_variables": {}
