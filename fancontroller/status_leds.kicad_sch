@@ -759,64 +759,168 @@
 		)
 	)
 	(junction
-		(at 55.88 90.17)
+		(at 85.09 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "97d16b20-7cec-4f46-a8a7-aa3133b96a54")
+		(uuid "09ac9f62-4226-44ec-b729-f88412b3d936")
 	)
 	(junction
-		(at 55.88 33.02)
+		(at 77.47 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a91b5a76-fd39-45fd-b91b-391b40f91cbe")
+		(uuid "1c6c3597-78ad-4cc4-accf-1be29b534c0d")
 	)
 	(junction
-		(at 55.88 58.42)
+		(at 85.09 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "baa8911c-9e93-4d38-b6c2-fd51ad054024")
+		(uuid "50f2a149-de39-48fb-a167-8b58ca3a8642")
 	)
 	(junction
-		(at 55.88 80.01)
+		(at 85.09 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c76858c5-25d2-4abc-a060-e29aa07facaa")
+		(uuid "6bc614a7-3faa-4ebf-861f-e60c302f10d0")
 	)
 	(junction
-		(at 55.88 45.72)
+		(at 77.47 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "df792f5a-f15f-4501-adda-fb16dd9dc05f")
+		(uuid "72f9eb49-6c5f-4d40-8af9-f46c3c0aeda1")
 	)
 	(junction
-		(at 55.88 71.12)
+		(at 77.47 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce7811c4-4167-4be4-ae1d-e5e7459464f7")
+	)
+	(junction
+		(at 85.09 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd8638a8-546f-46bd-8485-f3ab8a52451b")
+	)
+	(junction
+		(at 77.47 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e730576d-2621-4cca-9b8a-1ffc093cc17e")
+	)
+	(junction
+		(at 77.47 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f62c3875-a3ce-435d-92f7-708225004014")
 	)
+	(junction
+		(at 85.09 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe3ec455-bbb7-49ac-9c4f-757c8ca2a62d")
+	)
 	(wire
 		(pts
-			(xy 55.88 33.02) (xy 55.88 45.72)
+			(xy 85.09 81.28) (xy 87.63 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06191442-032e-4d70-8281-1486297e0151")
+		(uuid "195ca0ee-cc8c-435d-b34f-89e26093cf84")
 	)
 	(wire
 		(pts
-			(xy 55.88 45.72) (xy 55.88 58.42)
+			(xy 85.09 48.26) (xy 85.09 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0891846a-1053-443e-a5a4-264cc6629741")
+		(uuid "4bea5095-a16d-4627-82ee-b8fae3d96fac")
 	)
 	(wire
 		(pts
-			(xy 55.88 58.42) (xy 55.88 71.12)
+			(xy 85.09 76.2) (xy 85.09 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a5e89e-1f8d-4cbb-a2fc-b7e28ffb8c4d")
+	)
+	(wire
+		(pts
+			(xy 85.09 73.66) (xy 87.63 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "550f3833-b65d-4447-8a16-6abfee98eb28")
+	)
+	(wire
+		(pts
+			(xy 85.09 63.5) (xy 87.63 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5844224a-4fe0-4c2c-a4be-5e481226204c")
+	)
+	(wire
+		(pts
+			(xy 77.47 76.2) (xy 77.47 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62364a8e-52fe-49bd-9e53-53ddbbf78049")
+	)
+	(wire
+		(pts
+			(xy 85.09 58.42) (xy 85.09 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69230544-2d16-4692-90e5-b644fc4f598e")
+	)
+	(wire
+		(pts
+			(xy 85.09 55.88) (xy 87.63 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae99dd8-5be3-4b87-a9f2-1d8fbbf03fea")
+	)
+	(wire
+		(pts
+			(xy 77.47 41.91) (xy 77.47 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bffde14-7258-49e9-b209-58f88fe53440")
+	)
+	(wire
+		(pts
+			(xy 87.63 48.26) (xy 85.09 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abfda84-6b23-470f-9ec4-eadb40a2663b")
+	)
+	(wire
+		(pts
+			(xy 77.47 21.59) (xy 77.47 34.29)
 		)
 		(stroke
 			(width 0)
@@ -826,7 +930,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 71.12) (xy 55.88 80.01)
+			(xy 77.47 34.29) (xy 77.47 41.91)
 		)
 		(stroke
 			(width 0)
@@ -836,27 +940,67 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 90.17) (xy 55.88 97.79)
+			(xy 85.09 76.2) (xy 85.09 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d75df811-fa3d-4c14-9c3a-11c66858c0f4")
+		(uuid "8765d828-977b-42bb-96ef-2eae5ffe1f3d")
 	)
 	(wire
 		(pts
-			(xy 55.88 80.01) (xy 55.88 90.17)
+			(xy 77.47 58.42) (xy 77.47 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8f82ed7-0474-45e1-8515-b596d4d15a3e")
+		(uuid "9535aa0d-965f-43ea-9e58-fb173b164dd5")
+	)
+	(wire
+		(pts
+			(xy 85.09 58.42) (xy 85.09 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf801c67-d335-4d2f-9897-af7970f4fbb8")
+	)
+	(wire
+		(pts
+			(xy 77.47 63.5) (xy 77.47 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc59be20-0495-4946-bcde-93f3dd497b62")
+	)
+	(text "68Ω "
+		(exclude_from_sim no)
+		(at 72.898 78.232 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de0ddd97-3134-42bc-87f6-82596eb32788")
+	)
+	(text "60Ω"
+		(exclude_from_sim no)
+		(at 72.39 61.722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e2068960-411a-421b-b775-2c4786785f83")
 	)
 	(global_label "RX"
 		(shape input)
-		(at 71.12 90.17 0)
+		(at 95.25 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -866,7 +1010,7 @@
 		)
 		(uuid "409e9c02-5087-41bc-abd6-5060f07b18a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.5847 90.17 0)
+			(at 100.7147 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,7 +1022,7 @@
 	)
 	(global_label "EN"
 		(shape input)
-		(at 71.12 33.02 0)
+		(at 95.25 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -888,7 +1032,7 @@
 		)
 		(uuid "74aeafa1-2f0c-4e35-9b4d-0388c7b761e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.5847 33.02 0)
+			(at 100.7147 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -900,7 +1044,7 @@
 	)
 	(global_label "RST"
 		(shape output)
-		(at 71.12 97.79 0)
+		(at 95.25 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -910,7 +1054,7 @@
 		)
 		(uuid "85348a0a-ad7f-412b-8054-52fded7ab120")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.5523 97.79 0)
+			(at 101.6823 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -922,7 +1066,7 @@
 	)
 	(global_label "TX"
 		(shape input)
-		(at 71.12 80.01 0)
+		(at 95.25 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -932,7 +1076,7 @@
 		)
 		(uuid "b4fb9c14-ce62-49f2-8b5c-305f64330bb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2823 80.01 0)
+			(at 100.4123 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -944,15 +1088,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 58.42 90)
+		(at 81.28 21.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1093b2ad-5dda-40a8-b196-7e905c8d6984")
-		(property "Reference" "R14"
-			(at 59.69 56.388 90)
+		(property "Reference" "R12"
+			(at 81.28 19.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -960,15 +1104,15 @@
 			)
 		)
 		(property "Value" "150"
-			(at 59.944 58.42 90)
+			(at 81.534 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 59.69 60.198 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 81.28 23.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -977,7 +1121,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 58.42 0)
+			(at 81.28 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -986,7 +1130,25 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 58.42 0)
+			(at 81.28 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 81.28 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17471"
+			(at 81.28 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1003,7 +1165,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4/e7a7a44d-b084-43b7-8d62-9bab4cd6f198"
-					(reference "R14")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -1011,15 +1173,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 67.31 45.72 0)
+		(at 91.44 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "13bf60dd-47e2-45ee-9b71-6fbe7d60f049")
-		(property "Reference" "D2"
-			(at 70.104 44.704 0)
+		(property "Reference" "D6"
+			(at 94.234 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1027,15 +1189,15 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 67.31 43.18 0)
+			(at 91.44 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 67.31 45.72 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 91.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,7 +1206,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 45.72 0)
+			(at 91.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1053,7 +1215,7 @@
 			)
 		)
 		(property "Description" "Orange LED"
-			(at 67.31 45.72 0)
+			(at 91.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,7 +1224,16 @@
 			)
 		)
 		(property "LCSC Part #" "C84262"
-			(at 67.31 45.72 0)
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 91.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1079,94 +1250,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4/e7a7a44d-b084-43b7-8d62-9bab4cd6f198"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 59.69 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ba563d3-497e-4f39-a20d-2574583af88f")
-		(property "Reference" "R16"
-			(at 61.468 77.724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "60"
-			(at 61.468 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 59.69 81.788 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C17513"
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d6acb5d-e107-407d-bcf5-a4159494a1a9")
-		)
-		(pin "2"
-			(uuid "bb9def7d-5cd2-4bf9-bc1a-a5783d18e8b8")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4/e7a7a44d-b084-43b7-8d62-9bab4cd6f198"
-					(reference "R16")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -1174,15 +1258,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 67.31 90.17 0)
+		(at 91.44 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "30b8d156-98d7-42f3-9c67-6995700cfb72")
-		(property "Reference" "D6"
-			(at 70.358 89.154 0)
+		(property "Reference" "D5"
+			(at 94.488 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1190,15 +1274,15 @@
 			)
 		)
 		(property "Value" "RX"
-			(at 67.31 87.63 0)
+			(at 91.44 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 67.31 90.17 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 91.44 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,7 +1291,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 90.17 0)
+			(at 91.44 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,7 +1300,7 @@
 			)
 		)
 		(property "Description" "Green LED"
-			(at 67.31 90.17 0)
+			(at 91.44 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,7 +1309,16 @@
 			)
 		)
 		(property "LCSC Part #" "C84257"
-			(at 67.31 90.17 0)
+			(at 91.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 91.44 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1242,39 +1335,39 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4/e7a7a44d-b084-43b7-8d62-9bab4cd6f198"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 67.31 33.02 0)
+		(lib_id "Device:R")
+		(at 81.28 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "47704b71-49fc-4b47-9b74-3da83fb372bc")
-		(property "Reference" "D1"
-			(at 69.85 32.004 0)
+		(uuid "4005e522-35c2-497f-acf6-729025338985")
+		(property "Reference" "R16"
+			(at 81.28 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "EN"
-			(at 67.31 30.226 0)
+		(property "Value" "220"
+			(at 81.534 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 67.31 33.02 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 81.28 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1283,7 +1376,92 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 33.02 0)
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17557"
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2393a58c-7b44-4321-923d-e53786eb5aa1")
+		)
+		(pin "1"
+			(uuid "2b0a9907-154d-4346-ab72-acda63226a80")
+		)
+		(instances
+			(project "fancontroller"
+				(path "/0224fd83-71fd-467a-bea0-55e2843206f4/e7a7a44d-b084-43b7-8d62-9bab4cd6f198"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 91.44 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47704b71-49fc-4b47-9b74-3da83fb372bc")
+		(property "Reference" "D4"
+			(at 93.98 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EN"
+			(at 91.44 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 91.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1292,7 +1470,7 @@
 			)
 		)
 		(property "Description" "Green LED"
-			(at 67.31 33.02 0)
+			(at 91.44 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1301,7 +1479,16 @@
 			)
 		)
 		(property "LCSC Part #" "C84257"
-			(at 67.31 33.02 0)
+			(at 91.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 91.44 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1318,7 +1505,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4/e7a7a44d-b084-43b7-8d62-9bab4cd6f198"
-					(reference "D1")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -1326,15 +1513,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 90.17 90)
+		(at 81.28 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "52e9cc1a-a345-45b2-b685-a63e7643fcda")
-		(property "Reference" "R17"
-			(at 61.468 87.884 90)
+		(property "Reference" "R15"
+			(at 83.058 61.214 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1342,8 +1529,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60"
-			(at 61.468 90.17 90)
+		(property "Value" "120"
+			(at 83.058 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,7 +1539,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 59.69 91.948 90)
+			(at 81.28 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1361,7 +1548,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 90.17 0)
+			(at 81.28 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1557,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 90.17 0)
+			(at 81.28 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,8 +1565,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C17513"
-			(at 59.69 90.17 0)
+		(property "LCSC Part #" "C17437"
+			(at 81.28 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1388,7 +1575,16 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
-			(at 59.69 90.17 0)
+			(at 81.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 81.28 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +1601,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4/e7a7a44d-b084-43b7-8d62-9bab4cd6f198"
-					(reference "R17")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -1413,15 +1609,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 67.31 58.42 0)
+		(at 88.9 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5dabc455-d89f-4ee3-917b-867caa1fa199")
-		(property "Reference" "D3"
-			(at 70.104 57.658 0)
+		(property "Reference" "D1"
+			(at 91.694 20.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,15 +1625,15 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 67.31 55.88 0)
+			(at 88.9 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 67.31 58.42 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 88.9 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1446,7 +1642,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 58.42 0)
+			(at 88.9 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1455,7 +1651,7 @@
 			)
 		)
 		(property "Description" "Orange LED"
-			(at 67.31 58.42 0)
+			(at 88.9 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1464,7 +1660,16 @@
 			)
 		)
 		(property "LCSC Part #" "C84262"
-			(at 67.31 58.42 0)
+			(at 88.9 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 88.9 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1481,7 +1686,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4/e7a7a44d-b084-43b7-8d62-9bab4cd6f198"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -1489,7 +1694,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 71.12 45.72 270)
+		(at 95.25 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1497,8 +1702,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fea2a37-0c25-4759-b01c-a959ff616fa1")
-		(property "Reference" "#PWR023"
-			(at 67.31 45.72 0)
+		(property "Reference" "#PWR027"
+			(at 91.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,7 +1712,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 74.93 45.7199 90)
+			(at 99.06 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,7 +1721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 45.72 0)
+			(at 95.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1525,7 +1730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 45.72 0)
+			(at 95.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1534,7 +1739,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 71.12 45.72 0)
+			(at 95.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1753,7 @@
 		(instances
 			(project ""
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4/e7a7a44d-b084-43b7-8d62-9bab4cd6f198"
-					(reference "#PWR023")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -1556,15 +1761,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 71.12 90)
+		(at 81.28 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6a07f073-e565-4898-ab38-cf14426561fa")
-		(property "Reference" "R15"
-			(at 59.69 69.088 90)
+		(property "Reference" "R13"
+			(at 81.28 32.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1572,7 +1777,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 59.944 71.12 90)
+			(at 81.534 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,7 +1785,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 59.69 72.898 90)
+			(at 81.28 36.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,7 +1794,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 71.12 0)
+			(at 81.28 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1598,7 +1803,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 71.12 0)
+			(at 81.28 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1607,7 +1812,16 @@
 			)
 		)
 		(property "LCSC Part #" "C17513"
-			(at 59.69 71.12 0)
+			(at 81.28 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 81.28 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1624,7 +1838,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4/e7a7a44d-b084-43b7-8d62-9bab4cd6f198"
-					(reference "R15")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -1632,7 +1846,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 71.12 71.12 270)
+		(at 92.71 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1640,8 +1854,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71f6ed75-d960-45c5-ab29-74c8a1645978")
-		(property "Reference" "#PWR025"
-			(at 67.31 71.12 0)
+		(property "Reference" "#PWR026"
+			(at 88.9 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1650,7 +1864,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 74.93 71.1199 90)
+			(at 96.52 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1659,7 +1873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 71.12 0)
+			(at 92.71 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +1882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 71.12 0)
+			(at 92.71 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,7 +1891,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 71.12 71.12 0)
+			(at 92.71 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1691,7 +1905,7 @@
 		(instances
 			(project ""
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4/e7a7a44d-b084-43b7-8d62-9bab4cd6f198"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1699,15 +1913,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 67.31 71.12 0)
+		(at 88.9 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "89145b4f-b341-4178-bb6d-31c19dc48d2b")
-		(property "Reference" "D4"
-			(at 70.358 70.358 0)
+		(property "Reference" "D2"
+			(at 91.948 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,15 +1929,15 @@
 			)
 		)
 		(property "Value" "12V"
-			(at 67.31 68.58 0)
+			(at 88.9 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 67.31 71.12 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 88.9 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,7 +1946,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 71.12 0)
+			(at 88.9 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +1955,7 @@
 			)
 		)
 		(property "Description" "Red LED"
-			(at 67.31 71.12 0)
+			(at 88.9 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +1964,16 @@
 			)
 		)
 		(property "LCSC Part #" "C84256"
-			(at 67.31 71.12 0)
+			(at 88.9 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 88.9 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1767,7 +1990,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4/e7a7a44d-b084-43b7-8d62-9bab4cd6f198"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -1775,7 +1998,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 71.12 58.42 270)
+		(at 92.71 21.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1783,8 +2006,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c7f6dbd-c02f-43f2-9b34-5a63922eca4b")
-		(property "Reference" "#PWR024"
-			(at 67.31 58.42 0)
+		(property "Reference" "#PWR025"
+			(at 88.9 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1793,7 +2016,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 74.93 58.4199 90)
+			(at 96.52 21.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,7 +2025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 58.42 0)
+			(at 92.71 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +2034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 58.42 0)
+			(at 92.71 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,7 +2043,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 71.12 58.42 0)
+			(at 92.71 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +2057,103 @@
 		(instances
 			(project ""
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4/e7a7a44d-b084-43b7-8d62-9bab4cd6f198"
-					(reference "#PWR024")
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 81.28 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93357b6a-88ec-48f0-a2ba-b26b96b077b1")
+		(property "Reference" "R14"
+			(at 83.058 56.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120"
+			(at 83.058 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 81.28 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 81.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17437"
+			(at 81.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 81.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 81.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a9fd28f-b1a1-4847-ba1f-a03786c20d93")
+		)
+		(pin "2"
+			(uuid "1eabc99c-784e-48eb-8bf9-6368f4f4a6b1")
+		)
+		(instances
+			(project "fancontroller"
+				(path "/0224fd83-71fd-467a-bea0-55e2843206f4/e7a7a44d-b084-43b7-8d62-9bab4cd6f198"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -1842,7 +2161,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 33.02 270)
+		(at 77.47 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1850,8 +2169,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a96cbda0-1485-449d-80d6-40f3025bd841")
-		(property "Reference" "#PWR022"
-			(at 49.53 33.02 0)
+		(property "Reference" "#PWR024"
+			(at 71.12 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,7 +2179,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 33.0199 90)
+			(at 73.66 41.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +2188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 33.02 0)
+			(at 77.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,7 +2197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 33.02 0)
+			(at 77.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1887,7 +2206,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 33.02 0)
+			(at 77.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,7 +2220,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4/e7a7a44d-b084-43b7-8d62-9bab4cd6f198"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -1909,31 +2228,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 97.79 90)
+		(at 81.28 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ad848f93-b7b4-4a07-be7a-c5e38757338d")
-		(property "Reference" "R18"
-			(at 59.69 95.758 90)
+		(property "Reference" "R17"
+			(at 81.28 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "65"
-			(at 59.944 97.79 90)
+		(property "Value" "100"
+			(at 81.534 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 59.69 99.568 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 81.28 83.058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,7 +2261,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 97.79 0)
+			(at 81.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +2270,25 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 97.79 0)
+			(at 81.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17408"
+			(at 81.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 81.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,7 +2305,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4/e7a7a44d-b084-43b7-8d62-9bab4cd6f198"
-					(reference "R18")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -1976,7 +2313,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 67.31 97.79 0)
+		(at 91.44 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1984,7 +2321,7 @@
 		(dnp no)
 		(uuid "c76aa844-9940-4fa0-a6fc-79bf40d74168")
 		(property "Reference" "D7"
-			(at 70.104 96.774 0)
+			(at 94.234 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,15 +2329,15 @@
 			)
 		)
 		(property "Value" "Reset"
-			(at 67.31 95.25 0)
+			(at 91.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 67.31 97.79 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 91.44 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2009,7 +2346,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 97.79 0)
+			(at 91.44 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2018,7 +2355,7 @@
 			)
 		)
 		(property "Description" "Orange LED"
-			(at 67.31 97.79 0)
+			(at 91.44 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,7 +2364,16 @@
 			)
 		)
 		(property "LCSC Part #" "C84262"
-			(at 67.31 97.79 0)
+			(at 91.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 91.44 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2051,103 +2397,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 59.69 33.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf35b540-320b-4670-a63b-c0ab2492aa77")
-		(property "Reference" "R12"
-			(at 61.468 30.734 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "60"
-			(at 60.452 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 59.69 34.798 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 59.69 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C17513"
-			(at 59.69 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 59.69 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d90f27a1-93d8-4374-bed6-abc9cb963495")
-		)
-		(pin "2"
-			(uuid "5f9007ae-410c-4996-9d0a-8e908a626ddf")
-		)
-		(instances
-			(project "fancontroller"
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4/e7a7a44d-b084-43b7-8d62-9bab4cd6f198"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
-		(at 67.31 80.01 0)
+		(at 91.44 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d3c71d70-740d-4512-b929-b2719b78e793")
-		(property "Reference" "D5"
-			(at 70.104 79.248 0)
+		(property "Reference" "D3"
+			(at 94.234 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2155,15 +2414,15 @@
 			)
 		)
 		(property "Value" "TX"
-			(at 67.31 77.47 0)
+			(at 91.44 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 67.31 80.01 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 91.44 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +2431,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 80.01 0)
+			(at 91.44 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,7 +2440,7 @@
 			)
 		)
 		(property "Description" "Green LED"
-			(at 67.31 80.01 0)
+			(at 91.44 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +2449,16 @@
 			)
 		)
 		(property "LCSC Part #" "C84257"
-			(at 67.31 80.01 0)
+			(at 91.44 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 91.44 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2207,74 +2475,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4/e7a7a44d-b084-43b7-8d62-9bab4cd6f198"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 59.69 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fd479592-0022-456e-9e33-eeebe35a2268")
-		(property "Reference" "R13"
-			(at 59.69 43.688 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "65"
-			(at 59.944 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 47.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 59.69 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0ed74144-7bb7-427b-bde2-eaff4ba94d6f")
-		)
-		(pin "1"
-			(uuid "33018662-9e6a-4715-ad5e-28db5353ba19")
-		)
-		(instances
-			(project ""
-				(path "/0224fd83-71fd-467a-bea0-55e2843206f4/e7a7a44d-b084-43b7-8d62-9bab4cd6f198"
-					(reference "R13")
+					(reference "D3")
 					(unit 1)
 				)
 			)

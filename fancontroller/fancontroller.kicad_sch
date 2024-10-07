@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "0224fd83-71fd-467a-bea0-55e2843206f4")
 	(paper "A4")
+	(title_block
+		(title "ESP-Fancontroller")
+		(date "2024-10-07")
+		(rev "0.2")
+		(company "DJ-Bauer")
+		(comment 1 "Temperature Sensors are variable Resistors")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x04"
 			(pin_names
@@ -391,6 +398,261 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3794,6 +4056,28 @@
 	)
 	(global_label "RX"
 		(shape input)
+		(at 162.56 35.56 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2dd67f5b-a930-42ba-8e12-d7c4ace2ef9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 41.0247 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RX"
+		(shape input)
 		(at 156.21 95.25 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3880,6 +4164,28 @@
 			)
 		)
 	)
+	(global_label "TX"
+		(shape input)
+		(at 165.1 35.56 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7401a4cf-0ff7-4a25-8a81-f5239b0d58e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.1 40.7223 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TMP3"
 		(shape input)
 		(at 219.71 58.42 90)
@@ -3946,6 +4252,28 @@
 			)
 		)
 	)
+	(global_label "RTS"
+		(shape output)
+		(at 167.64 35.56 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b10d2337-dbd6-4bbc-a384-fe0175ed1892")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 41.9923 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TMP0"
 		(shape input)
 		(at 156.21 146.05 0)
@@ -3964,6 +4292,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DTR"
+		(shape output)
+		(at 170.18 35.56 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3e696f2-a333-406f-9804-e71932900f71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.18 42.0528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4066,7 +4416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05602c60-e018-477d-acc6-d52c64eec18f")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 185.42 77.47 0)
 			(effects
 				(font
@@ -4117,7 +4467,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4185,6 +4535,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" "90"
+			(at 212.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 212.09 49.53 0)
 			(effects
 				(font
@@ -4342,6 +4701,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 162.56 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "259a3f04-785c-45ad-bb87-7cafdfa5faf6")
+		(property "Reference" "J2"
+			(at 163.83 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Debug"
+			(at 163.83 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 162.56 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 162.56 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C91552"
+			(at 162.56 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 162.56 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a8833aaf-cfcc-44da-bb84-6946b6e646f0")
+		)
+		(pin "4"
+			(uuid "dd402750-f2f5-416d-a4d8-1b361f658b55")
+		)
+		(pin "2"
+			(uuid "daa6264f-a5e8-4a2f-aacf-1e744fae9d54")
+		)
+		(pin "1"
+			(uuid "7b9627c2-23e9-422a-87a2-5d1518d9193c")
+		)
+		(pin "5"
+			(uuid "9554853b-af05-4a28-8e19-6894a43c0340")
+		)
+		(pin "6"
+			(uuid "d2a9ffdf-f499-4900-8759-1519d204c377")
+		)
+		(instances
+			(project ""
+				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 43.18 64.77 0)
 		(unit 1)
@@ -4366,7 +4823,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 43.18 64.77 0)
 			(effects
 				(font
@@ -4411,6 +4868,15 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 43.18 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b524a12-2a74-4ac5-a8b0-fd1de4cd1a4e")
 		)
@@ -4421,6 +4887,72 @@
 			(project ""
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 157.48 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30fdf188-354f-4c20-99ba-6ecd6292e3d4")
+		(property "Reference" "#PWR012"
+			(at 157.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 154.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 157.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff78bf45-75ff-4537-9f52-c80a039d0921")
+		)
+		(instances
+			(project "fancontroller"
+				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4496,6 +5028,15 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 212.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a2ac2601-1fa2-4e1b-9439-00fde8a232ce")
 		)
@@ -4536,7 +5077,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 85.09 64.77 0)
 			(effects
 				(font
@@ -4581,6 +5122,15 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 85.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d40a3146-cc2b-4748-abaa-e318ad237f1c")
 		)
@@ -4606,7 +5156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d3423d6-ecc9-4896-b163-c51da01031c0")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 200.66 77.47 0)
 			(effects
 				(font
@@ -4657,7 +5207,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4690,7 +5240,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
 			(at 74.93 64.77 0)
 			(effects
 				(font
@@ -4709,6 +5259,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 80.01 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 80.01 64.77 0)
 			(effects
 				(font
@@ -4791,6 +5350,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
+			(at 226.06 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 226.06 31.75 0)
 			(effects
 				(font
@@ -5017,6 +5585,15 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 226.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "93467408-9cf3-45c2-8c5e-4dab71508747")
 		)
@@ -5094,6 +5671,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" "90"
+			(at 212.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 212.09 58.42 0)
 			(effects
 				(font
@@ -5387,6 +5973,15 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 226.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25918762-93b8-43ef-9348-d143962ba94a")
 		)
@@ -5472,6 +6067,15 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 212.09 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5d7afbd0-67d4-4aba-9ca0-1fe5748442ce")
 		)
@@ -5497,7 +6101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac6d6d9b-03d8-4a29-b9b5-fa2f23798d02")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 200.66 31.75 0)
 			(effects
 				(font
@@ -5548,7 +6152,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5692,6 +6296,15 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 116.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d66b1e47-f02f-45ee-967b-81fa03a1cfbb")
 		)
@@ -5769,6 +6382,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
+			(at 226.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 226.06 49.53 0)
 			(effects
 				(font
@@ -5855,6 +6477,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" "-90"
+			(at 187.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 187.96 77.47 0)
 			(effects
 				(font
@@ -5952,6 +6583,15 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 106.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cba5d470-8bbe-49bd-8aa8-7ab7b38b4cbb")
 		)
@@ -5995,7 +6635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-WROOM-32"
+		(property "Footprint" "PCM_Espressif:ESP32-WROOM-32E"
 			(at 140.97 156.21 0)
 			(effects
 				(font
@@ -6032,6 +6672,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
+			(at 140.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 140.97 118.11 0)
 			(effects
 				(font
@@ -6249,7 +6898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd26dc69-8cdf-498d-9dd5-abe05f109606")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 226.06 31.75 0)
 			(effects
 				(font
@@ -6300,7 +6949,7 @@
 		(instances
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6510,6 +7159,15 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 133.35 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "86523078-637e-4d54-b6e9-9588a82e4450")
 		)
@@ -6558,7 +7216,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
 			(at 85.09 62.23 0)
 			(effects
 				(font
@@ -6585,6 +7243,15 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 80.01 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc4e7d41-825c-4ed9-9b66-d7eb9d7579f6")
 		)
@@ -6592,6 +7259,72 @@
 			(project "fancontroller"
 				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0286db8-5e58-4b8e-818a-5bc253bb6f66")
+		(property "Reference" "#PWR013"
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cd1da8a-3dda-4cc5-8f20-f1b05f58636c")
+		)
+		(instances
+			(project "fancontroller"
+				(path "/0224fd83-71fd-467a-bea0-55e2843206f4"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6650,6 +7383,15 @@
 			)
 		)
 		(property "LCSC Part #" "C1525"
+			(at 106.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 106.68 92.71 0)
 			(effects
 				(font
