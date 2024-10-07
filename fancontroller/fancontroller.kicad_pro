@@ -615,6 +615,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -640,12 +648,32 @@
       "Status LEDs"
     ],
     [
-      "ffacd155-ee3e-4a02-81a2-8ac0f48c58f4",
-      "PWM driver"
-    ],
-    [
       "a9612688-8b33-4507-a26d-2abbbfdabb93",
       "Power Delivery"
+    ],
+    [
+      "697a23fd-1c55-47ba-b721-989bf051367e",
+      "Motor 1"
+    ],
+    [
+      "d4b2e9bb-c9e1-4011-9754-18f52765a82d",
+      "Motor 0"
+    ],
+    [
+      "b7f12c5b-539e-4b68-ad77-d041234edbdf",
+      "Motor 2"
+    ],
+    [
+      "60b0bd1c-d5e0-4612-ac2f-d2d398cb3c41",
+      "Motor 3"
+    ],
+    [
+      "4781c691-5627-48f1-a43d-9e593546ee46",
+      "Motor 4"
+    ],
+    [
+      "b7451969-b5c8-4a59-be86-9c30f199506d",
+      "Motor 5"
     ]
   ],
   "text_variables": {}
