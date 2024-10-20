@@ -28,5 +28,5 @@ fp-info-cache
 *.xml
 *.csv
 
-.esphome/
 secrets.yaml
+.esphome/
