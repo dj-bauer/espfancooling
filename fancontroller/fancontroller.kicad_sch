@@ -3769,7 +3769,7 @@
 		(uuid "0a5fa399-207a-428e-b5aa-3b96191dbaa8")
 	)
 	(label "Tacho 5"
-		(at 157.48 128.27 0)
+		(at 157.48 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3791,7 +3791,7 @@
 		(uuid "124d1922-cd55-4e9a-9b1c-be4c1eabbe72")
 	)
 	(label "PWM 5"
-		(at 157.48 125.73 0)
+		(at 157.48 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3813,7 +3813,7 @@
 		(uuid "277195be-e56e-430c-b633-2b053b034e86")
 	)
 	(label "PWM 0"
-		(at 157.48 138.43 0)
+		(at 157.48 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3846,7 +3846,7 @@
 		(uuid "5525bbb9-87b6-4d7f-a281-5eeb34fadceb")
 	)
 	(label "Tacho 2"
-		(at 157.48 113.03 0)
+		(at 157.48 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3857,7 +3857,7 @@
 		(uuid "5835aa3f-a4c4-4ee2-ae76-0d616e81789a")
 	)
 	(label "PWM 3"
-		(at 157.48 115.57 0)
+		(at 157.48 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3923,7 +3923,7 @@
 		(uuid "838376c6-6f42-4baf-9a89-0db3df85ad11")
 	)
 	(label "PWM 2"
-		(at 157.48 135.89 0)
+		(at 157.48 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3956,7 +3956,7 @@
 		(uuid "b0a0cbcb-76d6-4573-b8d4-dfee91f8ee3d")
 	)
 	(label "Tacho 0"
-		(at 157.48 140.97 0)
+		(at 157.48 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4000,7 +4000,7 @@
 		(uuid "f9c066c7-bf09-4608-94b5-0aa703ff770b")
 	)
 	(label "Tacho 1"
-		(at 157.48 133.35 0)
+		(at 157.48 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
