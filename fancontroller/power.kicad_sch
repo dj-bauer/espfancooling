@@ -2284,7 +2284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.45x1.45mm"
+		(property "Footprint" "DJCustom:VQFN-16-1EP_3x3mm_P0.5mm_EP1.45x1.45mm"
 			(at 56.642 47.752 0)
 			(effects
 				(font
@@ -3283,7 +3283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
 			(at 152.4 38.1 0)
 			(effects
 				(font
@@ -3310,7 +3310,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C347256"
+		(property "LCSC Part #" "C6186"
 			(at 152.4 43.18 0)
 			(effects
 				(font
