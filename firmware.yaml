@@ -1,0 +1,16 @@
+esphome:
+  name: fancontroller_0
+
+esp32:
+  board: esp32dev
+  variant: esp32
+
+
+wifi:
+  ssid: !secret ssid
+  password: !secret pass
+  fast_connect: true
+
+web_server:
+api:
+logger:
