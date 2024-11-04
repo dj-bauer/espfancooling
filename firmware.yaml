@@ -11,6 +11,10 @@ wifi:
   password: !secret pass
   fast_connect: true
 
+i2c:
+  scl: GPIO15
+  sda: GPIO2
+
 web_server:
 api:
 logger:
